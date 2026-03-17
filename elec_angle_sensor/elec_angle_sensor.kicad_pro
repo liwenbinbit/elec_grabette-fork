@@ -505,7 +505,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "fab/ASE001189-A1_Grabette_elec_angle_sensor.step",
       "svg": "",
       "vrml": ""
     },
