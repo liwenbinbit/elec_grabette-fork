@@ -2210,7 +2210,7 @@
 		)
 		(uuid "3855db64-4801-445b-b83e-9e7849cbe5fc")
 	)
-	(text "ASE01xyz"
+	(text "ASE01189"
 		(exclude_from_sim no)
 		(at 38.1 172.085 0)
 		(effects
@@ -5034,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PCB01xyz"
+		(property "Value" "PCB01188"
 			(at 38.1 168.275 0)
 			(effects
 				(font
