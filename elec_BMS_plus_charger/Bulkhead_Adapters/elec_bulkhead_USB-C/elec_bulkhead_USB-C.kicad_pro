@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "elec_BMS_plus_charger.kicad_pro",
+    "filename": "elec_bulkhead_USB-C.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -553,12 +553,24 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
           "show": false
         },
         {
@@ -587,6 +599,12 @@
         },
         {
           "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true
@@ -599,15 +617,21 @@
         },
         {
           "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Man.",
           "name": "Man.",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Man. Ref.",
           "name": "Man. Ref.",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -641,8 +665,8 @@
         },
         {
           "group_by": false,
-          "label": "Dielectric",
-          "name": "Dielectric",
+          "label": "'FT Position Offset",
+          "name": "'FT Position Offset",
           "show": false
         },
         {
@@ -655,72 +679,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "FT Rotation Offset",
-          "name": "FT Rotation Offset",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pin",
-          "name": "Sim.Pin",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "'FT Position Offset",
-          "name": "'FT Position Offset",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
           "show": false
         }
       ],
@@ -775,10 +733,6 @@
     [
       "bc05f5da-608c-4912-90e4-36b13d989976",
       "Root"
-    ],
-    [
-      "eb175ea5-b099-4f96-bf86-585b6d8ef105",
-      "Power"
     ]
   ],
   "text_variables": {}

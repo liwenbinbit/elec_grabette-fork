@@ -2285,6 +2285,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library_Pollen:BSZ034N04LS"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSZ034N04LS"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Library_Pollen:PQFN_3.3x3.3mm_-_PG-TDSON-8_FL"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "95A Id, 40V Vds, OptiMOS N-Channel Power MOSFET, 3.4mOhm Ron, Qg (typ) 22.0nC, PG-TDSON-8 FL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSZ034N04LS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSZ034N04LS_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library_Pollen:HY2120"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2945,293 +3243,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:Q_NMOS_DGS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_DGS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/gate/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_DGS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_DGS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9397,10 +9408,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "030d44f3-fe51-435f-a94f-1f70a2fffe67")
 		(property "Reference" "C7"
-			(at 220.9863 170.18 90)
+			(at 220.98 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,14 +9418,14 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 220.9863 172.72 90)
+			(at 220.98 179.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 220.98 176.53 0)
 			(effects
 				(font
@@ -9435,6 +9445,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 220.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 220.98 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BH-18650-B1BA007"
+		(property "Value" "BH-18650-A1BJ021"
 			(at 46.99 168.9099 90)
 			(effects
 				(font
@@ -9486,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:BAT-SMD_BH-18650-B1BA007"
+		(property "Footprint" "LCSC_parts_lib:BAT-TH_L77.0-W39.9_BH-18650-A1BJ021"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -9513,7 +9532,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6937126"
+		(property "LCSC Part" "C20606804"
 			(at 66.04 167.64 0)
 			(effects
 				(font
@@ -9910,7 +9929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 190.5 0)
 			(effects
 				(font
@@ -9929,6 +9948,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2933105"
 			(at 224.79 190.5 0)
 			(effects
 				(font
@@ -10115,7 +10143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 336.55 97.79 0)
 			(effects
 				(font
@@ -10134,6 +10162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 336.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 336.55 97.79 0)
 			(effects
 				(font
@@ -10232,10 +10269,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ce1ad85-ae32-4eea-a96a-dcae3964ee18")
 		(property "Reference" "R4"
-			(at 207.01 163.83 90)
+			(at 210.058 167.132 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10243,7 +10279,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 207.01 166.37 90)
+			(at 202.184 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,6 +10306,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25104"
+			(at 207.01 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10416,7 @@
 		(dnp no)
 		(uuid "261aeb75-375b-4e13-a4c9-4d1779ecc17a")
 		(property "Reference" "R16"
-			(at 252.73 166.37 0)
+			(at 252.476 170.942 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10379,7 +10424,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 255.27 166.37 0)
+			(at 256.794 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 204.47 180.34 0)
 			(effects
 				(font
@@ -10483,6 +10528,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 204.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013271"
+			(at 204.47 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,6 +10606,33 @@
 		)
 		(property "Description" "I2C Controlled 2-Cell (Li-Ion / Li-Polymer), 2A boost-mode battery charger with cell balancing for USB input, 3.9..6.2V VBUS, 3.4..4.6V charge voltage regulation range (per cell), 1.5 MHz, VQFN-24"
 			(at 238.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761614"
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." "TI"
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." "BQ25887RGER"
+			(at 238.76 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,7 +10744,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 220.98 139.192 0)
+			(at 221.488 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +10752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 140.97 0)
 			(effects
 				(font
@@ -10690,6 +10771,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 215.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
 			(at 215.9 140.97 0)
 			(effects
 				(font
@@ -10741,7 +10831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -10760,6 +10850,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2909344"
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -10791,10 +10890,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3254a8c7-ad76-4d3d-a165-0c6e47355449")
 		(property "Reference" "R15"
-			(at 254 161.29 90)
+			(at 252.222 164.592 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10802,14 +10900,14 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 254 163.83 90)
+			(at 257.302 164.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 166.37 0)
 			(effects
 				(font
@@ -10829,6 +10927,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 254 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906861"
+			(at 254 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10879,7 +10986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 199.39 0)
 			(effects
 				(font
@@ -10906,6 +11013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2906861"
+			(at 53.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6f59330-ab30-4466-9717-dd85e5b0e48d")
 		)
@@ -10916,6 +11032,117 @@
 			(project "elec_BMS_plus_charger"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_Pollen:BSZ034N04LS")
+		(at 111.76 179.07 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36da0775-1364-4078-a300-e50022a78564")
+		(property "Reference" "Q2"
+			(at 111.76 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSZ034N04LS"
+			(at 111.76 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library_Pollen:PQFN_3.3x3.3mm_-_PG-TDSON-8_FL"
+			(at 113.665 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0"
+			(at 111.76 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET"
+			(at 111.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." "Infineon"
+			(at 111.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." "BSZ034N04LSATMA1"
+			(at 111.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C534652"
+			(at 111.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 111.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d8ffc0e-4d8d-4566-a0a7-d74deb58507d")
+		)
+		(pin "4"
+			(uuid "b446e983-e2e4-4f04-8749-e7041d91653e")
+		)
+		(pin "5"
+			(uuid "17491f83-42d2-4385-a07f-c4b5fa1ebb7e")
+		)
+		(instances
+			(project "elec_BMS_plus_charger"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10947,7 +11174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 204.47 177.8 0)
 			(effects
 				(font
@@ -10967,6 +11194,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 204.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013271"
+			(at 204.47 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +11617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 311.15 187.96 90)
 			(effects
 				(font
@@ -11558,7 +11794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 328.93 121.92 90)
 			(effects
 				(font
@@ -11594,6 +11830,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C84269"
+			(at 328.93 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15f54d19-c6a6-4252-9565-a321fc1ffc5b")
 		)
@@ -11604,77 +11849,6 @@
 			(project "elec_BMS_plus_charger"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 111.76 179.07 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46c9e455-51f3-4ee7-9708-dda4914529b6")
-		(property "Reference" "Q2"
-			(at 111.76 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 111.76 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 111.76 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cad239ed-456e-4029-8678-f58f5f550d63")
-		)
-		(pin "1"
-			(uuid "78f205e1-591b-4941-8715-0d2e5cf1838f")
-		)
-		(pin "2"
-			(uuid "797e718b-0d92-4265-b97d-a87c909d2f2d")
-		)
-		(instances
-			(project "elec_BMS_plus_charger"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11906,7 +12080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 204.47 175.26 0)
 			(effects
 				(font
@@ -11926,6 +12100,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 204.47 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013271"
+			(at 204.47 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 328.93 128.27 0)
 			(effects
 				(font
@@ -12063,6 +12246,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 328.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25890"
 			(at 328.93 128.27 0)
 			(effects
 				(font
@@ -12181,7 +12373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 349.25 128.27 0)
 			(effects
 				(font
@@ -12200,6 +12392,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 349.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25890"
 			(at 349.25 128.27 0)
 			(effects
 				(font
@@ -12249,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 204.47 182.88 0)
 			(effects
 				(font
@@ -12269,6 +12470,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 204.47 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013271"
+			(at 204.47 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,7 +12731,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "JST EH 2"
 			(at 351.79 90.17 0)
 			(effects
 				(font
@@ -12529,7 +12739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 351.79 96.52 0)
 			(effects
 				(font
@@ -12548,6 +12758,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 351.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160262"
 			(at 351.79 96.52 0)
 			(effects
 				(font
@@ -12661,7 +12880,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 307.34 187.96 90)
 			(effects
 				(font
@@ -13037,7 +13256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -13056,6 +13275,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2998131"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -13087,10 +13315,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c29605b-7809-4ec1-a693-de8c84bac6d3")
 		(property "Reference" "C5"
-			(at 224.7836 149.86 90)
+			(at 224.79 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,14 +13325,14 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 224.7836 152.4 90)
+			(at 224.79 159.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -13125,6 +13352,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 224.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C272875"
+			(at 224.79 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,6 +13629,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 71.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25104"
+			(at 71.12 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -13765,6 +14010,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 264.16 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5674"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -13942,7 +14196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u low ESR"
 			(at 271.78 185.4262 0)
 			(effects
 				(font
@@ -13952,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 269.24 184.15 0)
 			(effects
 				(font
@@ -13971,6 +14225,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 269.24 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5674"
 			(at 269.24 184.15 0)
 			(effects
 				(font
@@ -14158,6 +14421,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Library_Pollen:BSZ034N04LS")
+		(at 99.06 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d6f9e0-d0bc-439c-b267-57cb57f4d52a")
+		(property "Reference" "Q1"
+			(at 99.06 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSZ034N04LS"
+			(at 105.664 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library_Pollen:PQFN_3.3x3.3mm_-_PG-TDSON-8_FL"
+			(at 97.155 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0"
+			(at 99.06 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." "Infineon"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." "BSZ034N04LSATMA1"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C534652"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcdb922-4fd0-41f7-b83c-eed2913906ca")
+		)
+		(pin "4"
+			(uuid "52acbe77-6ebf-4b15-8606-6fa0aea6bffe")
+		)
+		(pin "5"
+			(uuid "c688a9ab-bcad-4cda-9eb6-c74f69674e81")
+		)
+		(instances
+			(project "elec_BMS_plus_charger"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 193.04 167.64 0)
 		(unit 1)
@@ -14184,7 +14556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 167.64 0)
 			(effects
 				(font
@@ -14203,6 +14575,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
 			(at 193.04 167.64 0)
 			(effects
 				(font
@@ -14625,6 +15006,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25104"
+			(at 71.12 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe04e809-f1ee-4cbf-9ba6-798d64038f6f")
 		)
@@ -14734,7 +15124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 353.06 222.25 0)
 			(effects
 				(font
@@ -14761,7 +15151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C160404"
+		(property "LCSC Part" "C160390"
 			(at 353.06 222.25 0)
 			(effects
 				(font
@@ -14820,7 +15210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 137.16 0)
 			(effects
 				(font
@@ -14840,6 +15230,15 @@
 		)
 		(property "Description" "Inductor with iron core, small symbol"
 			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 207.01 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14948,7 +15347,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 75.438 165.608 0)
+			(at 75.184 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15026,77 +15425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 99.06 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f777d7b9-ef90-448b-a6b7-4c4f33e24b7e")
-		(property "Reference" "Q1"
-			(at 99.06 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 99.06 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ac9a0d7c-496a-4c34-b309-151730be4dd3")
-		)
-		(pin "1"
-			(uuid "a5530f1d-9105-4cc5-9205-b4de88d26c36")
-		)
-		(pin "2"
-			(uuid "9e84f7b5-6b31-48ff-a77f-591c8505b8e5")
-		)
-		(instances
-			(project "elec_BMS_plus_charger"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/eb175ea5-b099-4f96-bf86-585b6d8ef105"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 353.06 199.39 0)
 		(unit 1)
@@ -15123,7 +15451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 353.06 199.39 0)
 			(effects
 				(font
@@ -15150,7 +15478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C160404"
+		(property "LCSC Part" "C160390"
 			(at 353.06 199.39 0)
 			(effects
 				(font
