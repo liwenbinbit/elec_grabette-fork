@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "fab/elec_bulkhead_USB-C.step",
       "svg": "",
       "vrml": ""
     },

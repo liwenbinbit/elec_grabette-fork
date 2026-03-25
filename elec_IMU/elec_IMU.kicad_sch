@@ -12647,7 +12647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Mounting Holes M2"
 			(at 125.73 166.37 0)
 			(effects
 				(font
@@ -12657,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
 			(at 119.38 172.72 0)
 			(effects
 				(font
@@ -12972,7 +12972,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H1")
 					(unit 1)
@@ -13131,7 +13131,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID3")
 					(unit 1)
@@ -13225,7 +13225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2,5"
+		(property "Value" "Mounting Holes M2"
 			(at 107.696 166.116 0)
 			(effects
 				(font
@@ -13234,7 +13234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
 			(at 114.3 172.72 0)
 			(effects
 				(font
@@ -13951,7 +13951,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID1")
 					(unit 1)
@@ -14019,7 +14019,7 @@
 			(uuid "1ca3875c-d8fa-4661-b5cc-cb8565e8a9ff")
 		)
 		(instances
-			(project "elec_angle_sensor"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "#PWR01")
 					(unit 1)
@@ -14085,7 +14085,7 @@
 			(uuid "505bbc40-35f1-41fd-a240-539ce79d4022")
 		)
 		(instances
-			(project ""
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "#PWR02")
 					(unit 1)
@@ -14149,7 +14149,7 @@
 			)
 		)
 		(instances
-			(project "elec_angle_sensor"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "G1")
 					(unit 1)
@@ -14376,7 +14376,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID2")
 					(unit 1)
@@ -14641,7 +14641,7 @@
 			(uuid "71047411-a9bd-4d22-85c1-a9dcbd73cc1e")
 		)
 		(instances
-			(project ""
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "#FLG02")
 					(unit 1)
@@ -14708,7 +14708,7 @@
 			(uuid "62061ae3-d1af-4887-b80f-e175e349d169")
 		)
 		(instances
-			(project ""
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "#FLG01")
 					(unit 1)
@@ -14983,7 +14983,7 @@
 			(uuid "9d4ba272-5b10-4b2a-b737-d0f0f49fa080")
 		)
 		(instances
-			(project "elec_angle_sensor"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "D1")
 					(unit 1)
@@ -15073,7 +15073,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H3")
 					(unit 1)
@@ -15290,7 +15290,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H2")
 					(unit 1)
@@ -15358,7 +15358,7 @@
 			(uuid "e51fb06e-c387-4f64-82b6-749f2eb7aa5f")
 		)
 		(instances
-			(project "elec_angle_sensor"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "#PWR03")
 					(unit 1)
@@ -15578,7 +15578,7 @@
 			(uuid "d9efe0b0-807c-4f77-8d7c-04d82af96a3b")
 		)
 		(instances
-			(project "elec_angle_sensor"
+			(project "elec_IMU"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "J1")
 					(unit 1)

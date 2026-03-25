@@ -323,89 +323,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -766,10 +683,32 @@
 		(uuid "fd8ecdb1-38b8-46de-af7f-1da0a43da889")
 	)
 	(junction
+		(at 72.39 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d8c0a7-1a26-48bf-9733-511557836810")
+	)
+	(junction
 		(at 62.23 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "493152d9-c190-49d6-bb0c-d256f6ec555f")
+	)
+	(junction
+		(at 67.31 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcb335f-21dd-43d5-a446-faff02d9c2b3")
+	)
+	(wire
+		(pts
+			(xy 72.39 175.26) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa4c7d2-e303-4909-b40c-337819d59956")
 	)
 	(wire
 		(pts
@@ -831,6 +770,16 @@
 		)
 		(uuid "5e2e2d78-f1f1-4b12-9681-03f080e751de")
 	)
+	(wire
+		(pts
+			(xy 72.39 173.99) (xy 72.39 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0996d7-8004-423d-a88c-bc7800de081b")
+	)
 	(polyline
 		(pts
 			(xy 60.96 35.56) (xy 60.96 60.96)
@@ -870,6 +819,26 @@
 			(type default)
 		)
 		(uuid "b7bd4462-58f2-4382-a007-dbfd15b581a4")
+	)
+	(wire
+		(pts
+			(xy 77.47 175.26) (xy 72.39 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da159184-7171-4f67-95d7-cc86066750d1")
+	)
+	(wire
+		(pts
+			(xy 77.47 173.99) (xy 77.47 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f967f39c-442e-43ef-a500-f5984b808f96")
 	)
 	(image
 		(at 251.46 172.72)
@@ -2603,7 +2572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2"
+		(property "Value" "Mounting Holes M2,5"
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -2613,7 +2582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -2746,6 +2715,173 @@
 			(project "elec_BMS_plus_charger"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0238d8e2-506a-4360-98b5-15c30922db22")
+		(property "Reference" "H7"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mounting Holes M2,5"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76707465-8e8d-4a78-8049-6aad8c6048d1")
+		)
+		(instances
+			(project "elec_BMS_plus_charger"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -2937,6 +3073,173 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 72.39 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "149c4fcd-7142-434a-b6b7-f278b3597115")
+		(property "Reference" "H6"
+			(at 74.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mounting Holes M2,5"
+			(at 65.786 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Holes M2,5"
+			(at 76.2 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "223b5538-f34e-4d3a-a25e-665e313cc659")
+		)
+		(instances
+			(project "elec_BMS_plus_charger"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 62.23 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2954,8 +3257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2"
-			(at 55.626 164.846 0)
+		(property "Value" "Mounting Holes M2,5"
+			(at 60.706 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
 			(at 62.23 171.45 0)
 			(effects
 				(font
@@ -3354,70 +3657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.09 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a93ec8de-c871-4c2f-9396-01e72faa55dc")
-		(property "Reference" "H6"
-			(at 87.63 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Centering Hole 2 mm"
-			(at 78.994 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library_Pollen:MountingHole_2.0mm"
-			(at 85.09 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 85.09 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "elec_BMS_plus_charger"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library_Pollen:Logo Pollen 2021")
 		(at 55.88 142.24 0)
 		(unit 1)
@@ -3575,72 +3814,6 @@
 			(project "elec_BMS_plus_charger"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 90.17 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eedcd1e3-fec7-4374-b90a-90ebb36d929a")
-		(property "Reference" "H7"
-			(at 92.71 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Centering Hole 2 mm"
-			(at 92.71 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library_Pollen:MountingHole_2.0mm"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "elec_BMS_plus_charger"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "H7")
 					(unit 1)
 				)
 			)
