@@ -802,7 +802,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 124.46) (xy 64.77 124.46)
+			(xy 40.64 124.46) (xy 46.99 124.46)
 		)
 		(stroke
 			(width 0)
@@ -839,6 +839,16 @@
 			(type default)
 		)
 		(uuid "278aa0cc-7346-4765-8f3b-7b962be3f994")
+	)
+	(polyline
+		(pts
+			(xy 40.64 139.7) (xy 40.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f02b08-b6e0-46ae-8586-b61be8a2b930")
 	)
 	(polyline
 		(pts
@@ -910,6 +920,16 @@
 		)
 		(uuid "3dcb46b6-81ed-4915-9bb2-168f938d3be4")
 	)
+	(polyline
+		(pts
+			(xy 58.42 140.97) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b2f882-81a6-4c36-b758-ee2756cf3beb")
+	)
 	(wire
 		(pts
 			(xy 124.46 176.53) (xy 129.54 176.53)
@@ -950,6 +970,16 @@
 		)
 		(uuid "5e2e2d78-f1f1-4b12-9681-03f080e751de")
 	)
+	(polyline
+		(pts
+			(xy 55.88 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5dee5a-0d94-4751-98c0-09a03de5f847")
+	)
 	(wire
 		(pts
 			(xy 92.71 125.73) (xy 99.06 125.73)
@@ -979,6 +1009,36 @@
 			(type default)
 		)
 		(uuid "725dd3c5-9346-41ee-ba43-ba55dafb9fdf")
+	)
+	(polyline
+		(pts
+			(xy 50.8 124.46) (xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f29446-9b3f-49d4-9b5f-af0d6b6f9f1a")
+	)
+	(polyline
+		(pts
+			(xy 53.34 124.46) (xy 54.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a695f46-b029-483a-98dc-30a43df69bb4")
+	)
+	(polyline
+		(pts
+			(xy 48.26 140.97) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8425cf2c-ac91-4e67-b009-68558ce5ae49")
 	)
 	(polyline
 		(pts
@@ -1012,23 +1072,13 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 139.7) (xy 64.77 142.24)
+			(xy 50.8 140.97) (xy 52.07 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88d6e979-4787-4926-906a-c49b5d6eb963")
-	)
-	(polyline
-		(pts
-			(xy 40.64 140.97) (xy 64.77 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6570e1-2a2e-4b8e-acbd-4bc0a5328ed3")
+		(uuid "8f089ed3-24e2-41da-904f-7ff7acd8a182")
 	)
 	(polyline
 		(pts
@@ -1102,6 +1152,16 @@
 	)
 	(polyline
 		(pts
+			(xy 40.64 140.97) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b6d221-04b8-401b-a295-fb5112c10bba")
+	)
+	(polyline
+		(pts
 			(xy 38.1 116.84) (xy 27.94 116.84)
 		)
 		(stroke
@@ -1109,6 +1169,16 @@
 			(type default)
 		)
 		(uuid "baa4ca98-90e2-4c41-9a53-6f68d74bce5f")
+	)
+	(polyline
+		(pts
+			(xy 53.34 140.97) (xy 54.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb96ddf2-2753-4b70-80c1-f44de68d6edf")
 	)
 	(wire
 		(pts
@@ -1119,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "bc4d1fb2-0e67-4071-afd7-c518bf29b598")
+	)
+	(polyline
+		(pts
+			(xy 55.88 140.97) (xy 57.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8b7b30-21ee-48b0-bf47-a797e6960fae")
 	)
 	(polyline
 		(pts
@@ -1152,6 +1232,36 @@
 	)
 	(polyline
 		(pts
+			(xy 64.77 139.7) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85ab90a-47a4-43e5-8774-ecf79efc9fae")
+	)
+	(polyline
+		(pts
+			(xy 58.42 124.46) (xy 64.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dead554a-ca01-4344-b25d-b86b3042a640")
+	)
+	(polyline
+		(pts
+			(xy 48.26 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc37d66-76ea-4a3a-bab6-bc9e763303be")
+	)
+	(polyline
+		(pts
 			(xy 129.54 104.14) (xy 147.32 104.14)
 		)
 		(stroke
@@ -1159,16 +1269,6 @@
 			(type default)
 		)
 		(uuid "e091fa5f-84ea-4223-8e52-2d150c955edf")
-	)
-	(polyline
-		(pts
-			(xy 40.64 139.7) (xy 40.64 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19f5b46-944b-4d5d-b1eb-cadfb5045605")
 	)
 	(wire
 		(pts
@@ -2922,7 +3022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2"
+		(property "Value" "M2,5 x 4mm spacer"
 			(at 125.73 166.37 0)
 			(effects
 				(font
@@ -2932,7 +3032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "LCSC_parts_lib:SMD_BD5.6-D4.1_spacer"
 			(at 119.38 172.72 0)
 			(effects
 				(font
@@ -3050,6 +3150,15 @@
 			)
 		)
 		(property "FT Position Offset" ""
+			(at 119.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2916324"
 			(at 119.38 172.72 0)
 			(effects
 				(font
@@ -3273,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2"
+		(property "Value" "M2,5 x 4mm spacer"
 			(at 117.856 166.116 0)
 			(effects
 				(font
@@ -3283,7 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "LCSC_parts_lib:SMD_BD5.6-D4.1_spacer"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -3409,6 +3518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2916324"
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78af60ca-aef2-43b1-9f1b-dea73e03bf01")
 		)
@@ -3440,7 +3558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2,5"
+		(property "Value" "M2,5 x 4mm spacer"
 			(at 112.268 166.37 0)
 			(effects
 				(font
@@ -3449,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "LCSC_parts_lib:SMD_BD5.6-D4.1_spacer"
 			(at 114.3 172.72 0)
 			(effects
 				(font
@@ -3567,6 +3685,15 @@
 			)
 		)
 		(property "FT Position Offset" ""
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2916324"
 			(at 114.3 172.72 0)
 			(effects
 				(font
@@ -3858,7 +3985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mounting Holes M2"
+		(property "Value" "M2,5 x 4mm spacer"
 			(at 135.89 166.37 0)
 			(effects
 				(font
@@ -3868,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(property "Footprint" "LCSC_parts_lib:SMD_BD5.6-D4.1_spacer"
 			(at 129.54 172.72 0)
 			(effects
 				(font
@@ -3986,6 +4113,15 @@
 			)
 		)
 		(property "FT Position Offset" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2916324"
 			(at 129.54 172.72 0)
 			(effects
 				(font

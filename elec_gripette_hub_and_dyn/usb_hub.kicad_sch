@@ -1852,6 +1852,335 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:SP0503BAHT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SP0503BAHT"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+				(at 5.715 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?143*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SP0503BAHT_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SP0503BAHT_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SP0503BAHT_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pogo-pin_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2355,6 +2684,16 @@
 		)
 		(uuid "9c4f9ef6-aa60-4af1-9256-7da2830a0104")
 	)
+	(text "(internaly generated\n by the USB hub)"
+		(exclude_from_sim no)
+		(at 212.344 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9df98556-e302-492a-a165-91cd2f65fc73")
+	)
 	(text "(camera)"
 		(exclude_from_sim no)
 		(at 280.924 89.916 0)
@@ -2406,6 +2745,24 @@
 		(uuid "009064b2-3e55-4d5e-b762-2ae3174f2dfb")
 	)
 	(junction
+		(at 133.35 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13658d9e-fe86-4fa5-b4f0-829091e39ccd")
+	)
+	(junction
+		(at 130.81 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1438cdce-6c1d-4c34-8e5d-790f4aa56c60")
+	)
+	(junction
+		(at 128.27 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3d793a-6b65-4d37-91d4-c04f6f9195b3")
+	)
+	(junction
 		(at 255.27 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2416,6 +2773,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4058dc99-4722-47b3-aefb-c34a73701c43")
+	)
+	(junction
+		(at 175.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43294836-a652-4f9f-ad34-e5823adec84c")
 	)
 	(junction
 		(at 199.39 90.17)
@@ -2448,6 +2811,12 @@
 		(uuid "66118477-0a5c-4a69-81bd-480465923590")
 	)
 	(junction
+		(at 170.18 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ccbcff-f3f6-4375-90ca-38bf06bd2f07")
+	)
+	(junction
 		(at 255.27 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2470,12 +2839,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b21f6f89-04ad-4cbb-b531-77baec238775")
-	)
-	(junction
-		(at 175.26 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c27a8fe1-20b2-417d-b02a-8b3910ffcd18")
 	)
 	(junction
 		(at 250.19 153.67)
@@ -2599,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 128.27) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13afa784-d317-49b6-a986-941ee785fef0")
+	)
+	(wire
+		(pts
 			(xy 115.57 125.73) (xy 130.81 125.73)
 		)
 		(stroke
@@ -2709,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 110.49) (xy 175.26 102.87)
+			(xy 175.26 90.17) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +3132,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 194.31 102.87)
+			(xy 170.18 91.44) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3062972c-cbff-4379-8e4f-6948868ca8b6")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2859,6 +3242,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 125.73) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdc138a-44d0-4901-87cb-8f4dd5024378")
+	)
+	(wire
+		(pts
 			(xy 256.54 152.4) (xy 256.54 153.67)
 		)
 		(stroke
@@ -2896,6 +3289,16 @@
 			(type default)
 		)
 		(uuid "5610ce04-3154-4ed4-b330-e7bb72d68491")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5718c7b7-8ce0-4bb5-8944-036279304ea6")
 	)
 	(wire
 		(pts
@@ -2959,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 102.87) (xy 194.31 105.41)
+			(xy 194.31 90.17) (xy 194.31 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3016,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "740a6367-bb72-40f4-9a67-59258deed011")
+	)
+	(wire
+		(pts
+			(xy 130.81 142.24) (xy 130.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763a8a34-bee9-4abc-abe3-e4d8376e1b72")
 	)
 	(wire
 		(pts
@@ -3259,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 123.19) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce32f1da-7542-42eb-a9da-3181786b3ec0")
+	)
+	(wire
+		(pts
 			(xy 207.01 90.17) (xy 207.01 92.71)
 		)
 		(stroke
@@ -3296,16 +3719,6 @@
 			(type default)
 		)
 		(uuid "d2f98ac7-8f3e-447c-9fad-797cb2689dcf")
-	)
-	(wire
-		(pts
-			(xy 175.26 102.87) (xy 175.26 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d816a74e-9f44-49fb-950e-390d871ecbc8")
 	)
 	(wire
 		(pts
@@ -3356,6 +3769,16 @@
 			(type default)
 		)
 		(uuid "e32018e0-9384-4884-8cfe-efd6e7ff57dc")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.17) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd82258-8742-41c1-aa33-4571bf012a01")
 	)
 	(wire
 		(pts
@@ -3416,6 +3839,16 @@
 			(type default)
 		)
 		(uuid "f4bf80ae-6e15-4049-876d-3c9cecfa187b")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb71f878-9818-4b99-baf5-44056cc6218d")
 	)
 	(wire
 		(pts
@@ -5311,24 +5744,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 172.72 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 172.72 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 172.72 125.73 90)
 			(effects
@@ -5474,7 +5889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:SMD_BD1,2.0-L1.2-pogo-pin"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_YZ95315064P-01_pogo"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -5501,7 +5916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5157386"
+		(property "LCSC Part" "C5157245"
 			(at 264.16 90.17 90)
 			(effects
 				(font
@@ -5660,15 +6075,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 245.11 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part" "C18723540"
 			(at 245.11 200.66 0)
 			(effects
@@ -5786,24 +6192,6 @@
 		)
 		(property "Width" "0.9"
 			(at 172.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 172.72 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 172.72 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,25 +6364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 252.73 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 252.73 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 252.73 157.48 90)
 			(effects
 				(font
@@ -6109,25 +6479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 256.54 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 256.54 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 256.54 149.86 90)
 			(effects
 				(font
@@ -6225,24 +6577,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -6488,7 +6822,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 175.26 97.79 0)
+		(at 170.18 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6497,7 +6831,7 @@
 		(fields_autoplaced yes)
 		(uuid "58e424eb-680b-4fbb-baef-79a702f28e65")
 		(property "Reference" "#PWR09"
-			(at 175.26 101.6 0)
+			(at 170.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6840,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 175.26 92.71 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 97.79 0)
+			(at 170.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 97.79 0)
+			(at 170.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 97.79 0)
+			(at 170.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,24 +6934,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 229.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 229.87 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 229.87 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,25 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 250.19 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 250.19 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 250.19 149.86 90)
 			(effects
 				(font
@@ -6903,24 +7201,6 @@
 			)
 		)
 		(property "Description" "USB 2.0 High Speed 4-Port Hub Controller, WQFN-24"
-			(at 199.39 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 199.39 133.35 0)
 			(effects
 				(font
@@ -7140,24 +7420,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 240.03 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 240.03 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 240.03 208.28 90)
 			(effects
@@ -7220,7 +7482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:SMD_BD1,2.0-L1.2-pogo-pin"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_YZ95315064P-01_pogo"
 			(at 260.35 90.17 0)
 			(effects
 				(font
@@ -7247,7 +7509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5157386"
+		(property "LCSC Part" "C5157245"
 			(at 260.35 90.17 90)
 			(effects
 				(font
@@ -7390,24 +7652,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 252.73 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 252.73 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 252.73 163.83 0)
 			(effects
@@ -7489,24 +7733,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 229.87 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 229.87 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 229.87 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,15 +7826,6 @@
 				(hide yes)
 			)
 		)
-		(property "'FT Position Offset" ""
-			(at 168.91 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part" "C133334"
 			(at 168.91 144.78 90)
 			(effects
@@ -7634,6 +7851,73 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90d36a46-658a-43bc-b1ae-16c3fee3a042")
+		(property "Reference" "#PWR059"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea67a13f-aac0-4813-a940-ab15fd0d48dc")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7770,25 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 261.62 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 261.62 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 261.62 149.86 90)
 			(effects
 				(font
@@ -7970,25 +8236,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 245.11 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 245.11 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 245.11 149.86 90)
 			(effects
 				(font
@@ -8107,6 +8355,185 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2189c13-d51a-41a9-b306-7d720b349ea1")
+		(property "Reference" "#PWR060"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d95abde0-d3f8-4200-9014-7890a6a84ae9")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:SP0503BAHT")
+		(at 130.81 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ed5139-02e9-4427-b8db-567b40c3a77e")
+		(property "Reference" "D3"
+			(at 135.128 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SP0503BAHT"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 136.525 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+			(at 133.985 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C41364459"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3a2f901f-8d3c-4add-93ba-76061105bc1c")
+		)
+		(pin "1"
+			(uuid "def529ec-d602-4bc2-a261-ae4df4547c97")
+		)
+		(pin "3"
+			(uuid "1337a516-0eba-472c-831d-e72dc2b833d4")
+		)
+		(pin "2"
+			(uuid "1d7015d0-e44e-4662-91e4-d712d749c9f2")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 237.49 191.77 0)
 		(mirror y)
@@ -8197,24 +8624,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 237.49 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 237.49 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 237.49 191.77 90)
 			(effects
@@ -8243,6 +8652,112 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ced971f6-5eca-4fca-8b4a-7ea025e35854")
+		(property "Reference" "C21"
+			(at 168.402 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C85864"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4adf7b-46a1-468a-b775-8e035aaf9079")
+		)
+		(pin "2"
+			(uuid "492c6fbe-530d-487a-ba3e-e64439574879")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8570,24 +9085,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 179.07 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 179.07 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 179.07 161.29 0)
 			(effects
@@ -8685,24 +9182,6 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 265.43 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 265.43 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 265.43 204.47 0)
 			(effects
 				(font
@@ -8962,24 +9441,6 @@
 		)
 		(property "Width" "0.9"
 			(at 233.68 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 233.68 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 233.68 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)

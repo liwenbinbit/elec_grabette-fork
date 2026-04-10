@@ -5507,24 +5507,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 143.51 76.2 0)
 			(effects
@@ -5607,15 +5589,6 @@
 		)
 		(property "Description" "test point"
 			(at 105.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 105.41 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,24 +5682,6 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 80.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 80.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 80.01 106.68 0)
 			(effects
 				(font
@@ -6026,24 +5981,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 161.29 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 161.29 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 161.29 82.55 0)
 			(effects
@@ -6221,25 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 317.5 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "180"
-			(at 317.5 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 317.5 153.67 90)
 			(effects
 				(font
@@ -6486,24 +6405,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 76.2 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 76.2 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 76.2 140.97 0)
 			(effects
@@ -6602,24 +6503,6 @@
 			)
 		)
 		(property "Man. Ref." "B3B-EH-A(LF)(SN)"
-			(at 334.01 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 341.884 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -6813,24 +6696,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 214.63 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 214.63 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 214.63 210.82 0)
 			(effects
@@ -6954,24 +6819,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 163.83 92.71 0)
 			(effects
@@ -7070,24 +6917,6 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 93.98 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 93.98 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -7994,25 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 93.98 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "270"
-			(at 93.98 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 93.98 133.35 0)
 			(effects
 				(font
@@ -8208,24 +8019,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 265.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 265.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 265.43 133.35 0)
 			(effects
@@ -8341,24 +8134,6 @@
 		)
 		(property "Width" "0.9"
 			(at 302.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 302.26 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 302.26 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,24 +8331,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 151.13 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 151.13 82.55 90)
 			(effects
@@ -8671,24 +8428,6 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 207.01 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 207.01 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 207.01 210.82 0)
 			(effects
 				(font
@@ -8796,24 +8535,6 @@
 			)
 		)
 		(property "Man. Ref." "B3B-EH-A(LF)(SN)"
-			(at 334.01 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 341.884 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 334.01 191.77 0)
 			(effects
 				(font
@@ -9016,24 +8737,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 74.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 74.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field7" ""
 			(at 74.93 106.68 0)
 			(effects
@@ -9149,24 +8852,6 @@
 			)
 		)
 		(property "Width" "0.9"
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 232.41 113.03 0)
 			(effects
 				(font
@@ -9499,25 +9184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 288.29 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" ""
-			(at 288.29 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 288.29 184.15 90)
 			(effects
 				(font
@@ -9639,24 +9306,6 @@
 			)
 		)
 		(property "Width" "3.0"
-			(at 215.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 215.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 215.9 173.99 0)
 			(effects
 				(font
@@ -9862,25 +9511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 215.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "90"
-			(at 215.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 215.9 120.65 0)
 			(effects
 				(font
@@ -10013,24 +9644,6 @@
 		)
 		(property "Width" "0.9"
 			(at 278.13 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 278.13 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 278.13 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,25 +9807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 317.5 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "180"
-			(at 317.5 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
 			(at 317.5 182.88 90)
 			(effects
 				(font
