@@ -6523,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 173.99 59.69 90)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 45.72 0)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 207.01 45.72 90)
 			(effects
 				(font
@@ -8854,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -8881,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 173.99 55.88 90)
 			(effects
 				(font
@@ -9189,7 +9189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -9216,7 +9216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C514173"
+		(property "LCSC Part" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font

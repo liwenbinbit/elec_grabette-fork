@@ -2436,6 +2436,12 @@
 		(uuid "ed2f82f0-5aa0-4255-a093-7eebdd5b265b")
 	)
 	(junction
+		(at 323.85 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a48ed6-ae21-4206-8355-69e4f2f66151")
+	)
+	(junction
 		(at 91.44 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,6 +2452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f76242e6-bd13-4e89-a9b3-23d0ec35c23b")
+	)
+	(junction
+		(at 321.31 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93014b4-9320-4c60-aff7-0ca7fa27c94e")
 	)
 	(no_connect
 		(at 104.14 130.81)
@@ -2569,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 191.77) (xy 323.85 207.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "1b26886b-d66a-40c5-9e35-3362587f0496")
+	)
+	(wire
+		(pts
 			(xy 328.93 189.23) (xy 321.31 189.23)
 		)
 		(stroke
@@ -2626,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "2f44ae15-dde8-4183-96e6-afd9b24bcba0")
+	)
+	(wire
+		(pts
+			(xy 328.93 209.55) (xy 326.39 209.55)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "32b8b9a4-717d-4059-b6f6-4dc147edd59a")
 	)
 	(wire
 		(pts
@@ -3109,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 207.01) (xy 328.93 207.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "99572abd-4864-491a-9d0e-a5abcd1f0d64")
+	)
+	(wire
+		(pts
 			(xy 118.11 106.68) (xy 118.11 143.51)
 		)
 		(stroke
@@ -3206,6 +3248,16 @@
 			(type default)
 		)
 		(uuid "aac0c6cf-42a2-4fd3-ba20-68f45a27018a")
+	)
+	(wire
+		(pts
+			(xy 328.93 204.47) (xy 321.31 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0e387a-f438-4611-acf7-aacc41f21cb4")
 	)
 	(wire
 		(pts
@@ -3399,6 +3451,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 204.47) (xy 321.31 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a7071a-bc09-4559-9550-38715f4a933a")
+	)
+	(wire
+		(pts
 			(xy 328.93 179.07) (xy 326.39 179.07)
 		)
 		(stroke
@@ -3416,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "eb426398-db9e-4562-924c-1e8cb45cab31")
+	)
+	(wire
+		(pts
+			(xy 326.39 209.55) (xy 326.39 212.09)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "ee944e42-4326-47df-87e6-436a97cb7207")
 	)
 	(wire
 		(pts
@@ -5394,7 +5466,7 @@
 		)
 		(uuid "f1ee3c70-34a7-438d-a290-b51202018d0b")
 	)
-	(hierarchical_label "USB_DynM"
+	(hierarchical_label "USB_DynN"
 		(shape input)
 		(at 50.8 133.35 180)
 		(effects
@@ -6466,7 +6538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -6520,7 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C263754"
+		(property "LCSC Part" ""
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -7219,6 +7291,73 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb94a0a-bd19-4aab-95b7-8c1116e614d8")
+		(property "Reference" "#PWR044"
+			(at 326.39 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81609c78-b89d-44c1-b8f5-7ff43ac51633")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8471,6 +8610,125 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
+		(at 334.01 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a51c5e7b-d50c-4b24-999d-f03f94b5d876")
+		(property "Reference" "J9"
+			(at 337.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Dynamixel-3"
+			(at 337.82 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dynamixel-3 (new)"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." "JST"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." "B3B-EH-A(LF)(SN)"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "727c0488-1aea-48ff-8668-14eb0c380a5e")
+		)
+		(pin "2"
+			(uuid "61987610-3151-49c0-82c5-61c699f3dd1a")
+		)
+		(pin "3"
+			(uuid "95d7bb91-48cb-4e1e-bb59-c639b0b6ea3a")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 334.01 191.77 0)
 		(mirror x)
 		(unit 1)
@@ -8498,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 334.01 191.77 0)
 			(effects
 				(font
@@ -8552,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C263754"
+		(property "LCSC Part" ""
 			(at 334.01 191.77 0)
 			(effects
 				(font

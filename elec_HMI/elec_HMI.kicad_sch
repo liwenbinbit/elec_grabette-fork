@@ -1789,6 +1789,17 @@
 		)
 		(uuid "2520f966-d268-4d70-9674-db30a65b367c")
 	)
+	(text "ToDo:\n - add 100n as debounce on the switch?\n - lower R_base to have more power on LED?"
+		(exclude_from_sim no)
+		(at 127 69.342 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "349b47ff-4291-4231-8d46-016e2ef6e548")
+	)
 	(text "Fiducials"
 		(exclude_from_sim no)
 		(at 86.868 166.37 0)

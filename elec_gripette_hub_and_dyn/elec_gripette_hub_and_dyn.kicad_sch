@@ -332,7 +332,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -3050,7 +3050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole"
+		(property "Description" "Mounting Hole with connection"
 			(at 119.38 172.72 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Holes M2,5"
+		(property "Description" "Mounting Hole with connection"
 			(at 128.27 166.624 0)
 			(effects
 				(font
@@ -3585,7 +3585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Holes M2,5"
+		(property "Description" "Mounting Hole with connection"
 			(at 118.11 166.624 0)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole"
+		(property "Description" "Mounting Hole with connection"
 			(at 129.54 172.72 0)
 			(effects
 				(font
@@ -4383,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(pin "USB_DynM" input
+		(pin "USB_DynN" input
 			(at 92.71 125.73 0)
 			(uuid "79ee4adf-8f2a-4808-979e-f2489f43638f")
 			(effects
@@ -4446,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(pin "USB_DynM" input
+		(pin "USB_DynN" input
 			(at 99.06 125.73 180)
 			(uuid "772ad2a9-5b29-43f5-a3ea-2cb7b9f5ec7b")
 			(effects
