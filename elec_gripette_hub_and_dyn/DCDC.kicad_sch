@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Grippette - USB hub and Dynamixel device")
-		(date "2026-04-07")
+		(date "2026-04-16")
 		(rev "A1")
 		(company "Pollen Robotics/HF")
 	)
@@ -6565,7 +6565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
 			(at 173.99 59.69 90)
 			(effects
 				(font
@@ -8594,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
 			(at 207.01 45.72 90)
 			(effects
 				(font
@@ -8763,6 +8763,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b112b01-3054-4c28-88bd-4d9ed3498170")
 		)
@@ -8862,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP-0R"
+		(property "Value" "DNP - 0R"
 			(at 173.736 53.594 90)
 			(effects
 				(font
@@ -9232,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C160262"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -9241,7 +9250,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -10147,6 +10156,15 @@
 			)
 		)
 		(property "LCSC Part" "C72502"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 151.13 50.8 0)
 			(effects
 				(font

@@ -5,10 +5,10 @@
 	(uuid "d04ceac6-8cac-439f-b229-c72166286db8")
 	(paper "A3")
 	(title_block
-		(title "elec_maroilles")
-		(date "2026-02-02")
-		(rev "B1")
-		(company "Pollen Robotics / Hugging Face")
+		(title "Grippette - USB hub and Dynamixel device")
+		(date "2026-04-16")
+		(rev "A1")
+		(company "Pollen Robotics/HF")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -5890,7 +5890,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C504989"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -6539,7 +6548,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 256.54 149.86 90)
 			(effects
 				(font
@@ -8296,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 245.11 149.86 90)
 			(effects
 				(font

@@ -5,10 +5,10 @@
 	(uuid "e6c27d32-d792-4e1a-ad72-dc6a376f30e5")
 	(paper "A3")
 	(title_block
-		(title "elec_maroilles")
-		(date "2026-02-02")
-		(rev "B1")
-		(company "Pollen Robotics / Hugging Face")
+		(title "Grippette - USB hub and Dynamixel device")
+		(date "2026-04-16")
+		(rev "A1")
+		(company "Pollen Robotics/HF")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G125"
@@ -6230,7 +6230,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 317.5 153.67 90)
 			(effects
 				(font
@@ -6248,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C78734"
+		(property "LCSC Part" "C64886"
 			(at 317.5 153.67 90)
 			(effects
 				(font
@@ -6592,7 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C160259"
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -6601,7 +6601,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -8691,7 +8691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C160259"
 			(at 334.01 207.01 0)
 			(effects
 				(font
@@ -8700,7 +8700,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 334.01 207.01 0)
 			(effects
 				(font
@@ -8810,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C160259"
 			(at 334.01 191.77 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 334.01 191.77 0)
 			(effects
 				(font
@@ -10065,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 317.5 182.88 90)
 			(effects
 				(font
@@ -10083,7 +10083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C78734"
+		(property "LCSC Part" "C64886"
 			(at 317.5 182.88 90)
 			(effects
 				(font

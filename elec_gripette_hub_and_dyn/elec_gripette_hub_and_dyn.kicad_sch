@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Grippette - USB hub and Dynamixel device")
-		(date "2026-04-07")
+		(date "2026-04-16")
 		(rev "A1")
 		(company "Pollen Robotics/HF")
 	)
@@ -583,7 +583,7 @@
 		)
 		(uuid "3855db64-4801-445b-b83e-9e7849cbe5fc")
 	)
-	(text "ASE0xyz"
+	(text "ASE01201"
 		(exclude_from_sim no)
 		(at 38.1 173.355 0)
 		(effects
@@ -685,7 +685,7 @@
 		)
 		(uuid "aa34a2d2-c01c-418f-86f5-bad722e873cf")
 	)
-	(text "\"elec_hub_and_dyn\" is a part of the Grabette/Gripette project, it is a \nunder-HAT for rasp 2w with a USB hub and a Dynamixel device."
+	(text "\"elec_hub_and_dyn\" is a part of the Grabette/Gripette project, it is a \nunder-HAT for rasp zero 2w with a USB hub and a Dynamixel device."
 		(exclude_from_sim no)
 		(at 19.304 27.686 0)
 		(effects
@@ -741,7 +741,7 @@
 		)
 		(uuid "f5d00bcc-eabe-48dd-9739-479bfa89e1ef")
 	)
-	(text "dd/mm/2026"
+	(text "16/04/2026"
 		(exclude_from_sim no)
 		(at 39.37 44.45 0)
 		(effects
@@ -3198,7 +3198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PCB0xyz"
+		(property "Value" "PCB01200"
 			(at 38.1 169.545 0)
 			(effects
 				(font
