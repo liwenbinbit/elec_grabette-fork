@@ -2154,6 +2154,16 @@
 			"IO_26" "IO_27"
 		)
 	)
+	(text "Can be software-changed (+OTP)"
+		(exclude_from_sim no)
+		(at 166.878 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1365aefa-a768-4a25-aaf4-c1869ff82124")
+	)
 	(text "Date"
 		(exclude_from_sim no)
 		(at 39.37 38.1 0)
@@ -2285,6 +2295,18 @@
 			(justify left bottom)
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
+	)
+	(text "Default I2C add. 0x40"
+		(exclude_from_sim no)
+		(at 166.624 128.016 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "caa4b867-fb9b-453c-837b-dd3ec7ecb327")
 	)
 	(text "SN"
 		(exclude_from_sim no)
