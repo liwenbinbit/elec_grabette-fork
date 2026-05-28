@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Grippette - USB hub and Dynamixel device")
-		(date "2026-04-16")
-		(rev "A1")
+		(date "2026-05-27")
+		(rev "B1")
 		(company "Pollen Robotics/HF")
 	)
 	(lib_symbols
@@ -2724,6 +2724,16 @@
 		)
 		(uuid "9df98556-e302-492a-a165-91cd2f65fc73")
 	)
+	(text "Reseting the hub\nfrom the rasp"
+		(exclude_from_sim no)
+		(at 147.066 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8657364-084b-4995-ac98-d26cb20e5941")
+	)
 	(text "(camera)"
 		(exclude_from_sim no)
 		(at 280.924 89.916 0)
@@ -2819,6 +2829,12 @@
 		(uuid "2ca52805-f995-47a6-b67e-fc5db2507ae4")
 	)
 	(junction
+		(at 179.07 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d2597e-3c4d-4543-ae31-af98272782f5")
+	)
+	(junction
 		(at 252.73 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2895,6 +2911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc289b90-836d-4a98-8a09-38f08521ccb3")
+	)
+	(junction
+		(at 208.28 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd643c42-4a8a-4202-8f1b-fc6910de1bec")
 	)
 	(no_connect
 		(at 217.17 156.21)
@@ -2992,13 +3014,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 123.19) (xy 181.61 123.19)
+			(xy 175.26 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1037dfc7-423c-44ff-b9fd-3b998abad63f")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10543c9f-9d21-4b3d-abb6-b6ac965602f5")
 	)
 	(wire
 		(pts
@@ -3222,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 92.71) (xy 214.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371ed720-4dd7-467d-8b41-c942e88ce7b4")
+	)
+	(wire
+		(pts
 			(xy 175.26 110.49) (xy 181.61 110.49)
 		)
 		(stroke
@@ -3292,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 207.01 97.79)
+			(xy 208.28 99.06) (xy 208.28 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3319,6 +3361,16 @@
 			(type default)
 		)
 		(uuid "44ae69dd-f75a-4c3f-93c2-9be919b40024")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b45482-055c-447c-ac7a-1941f0e367d7")
 	)
 	(wire
 		(pts
@@ -3352,6 +3404,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 90.17) (xy 214.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c7de83-e1e2-465f-b214-317cd811bfe3")
+	)
+	(wire
+		(pts
 			(xy 260.35 90.17) (xy 260.35 110.49)
 		)
 		(stroke
@@ -3379,6 +3441,16 @@
 			(type default)
 		)
 		(uuid "5718c7b7-8ce0-4bb5-8944-036279304ea6")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9282d1-c9a8-46a9-8f0d-f5025fa377d6")
 	)
 	(wire
 		(pts
@@ -3512,6 +3584,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 93.98) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb9bea5-d31a-4378-9c1c-03ff970a6360")
+	)
+	(wire
+		(pts
 			(xy 166.37 123.19) (xy 170.18 123.19)
 		)
 		(stroke
@@ -3529,6 +3611,16 @@
 			(type default)
 		)
 		(uuid "84600191-173c-40f8-ba9b-c0d73b562d96")
+	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4d6e60-9d03-4264-9c60-13e9a9344c91")
 	)
 	(wire
 		(pts
@@ -3732,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 90.17) (xy 207.01 92.71)
+			(xy 208.28 90.17) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3752,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 207.01 90.17)
+			(xy 199.39 90.17) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3919,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "fce95fb4-5a21-42d0-a33c-d9294fcdd266")
+	)
+	(wire
+		(pts
+			(xy 179.07 123.19) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff760629-de58-4c72-994f-42545339aabf")
 	)
 	(image
 		(at 345.44 260.35)
@@ -5634,7 +5736,7 @@
 		)
 	)
 	(label "DM+"
-		(at 147.32 115.57 180)
+		(at 143.51 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5674,7 +5776,7 @@
 		(uuid "9176ef50-8170-42a7-956b-30e4ba57677d")
 	)
 	(label "DM-"
-		(at 147.32 118.11 180)
+		(at 143.51 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5998,7 +6100,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin"
+		(property "Value" "Pogo-pin 4mm"
 			(at 261.62 84.8532 90)
 			(effects
 				(font
@@ -6501,7 +6603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7429915"
+		(property "LCSC Part" "C19171301"
 			(at 252.73 157.48 90)
 			(effects
 				(font
@@ -6598,7 +6700,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 256.54 149.86 90)
 			(effects
 				(font
@@ -6616,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19171301"
+		(property "LCSC Part" "C7429915"
 			(at 256.54 149.86 90)
 			(effects
 				(font
@@ -6651,16 +6753,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 207.01 95.25 0)
+		(at 208.28 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4588f6f7-f471-4bb2-a617-99445a34493b")
 		(property "Reference" "C1"
-			(at 209.55 93.9862 0)
+			(at 205.74 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6771,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 209.55 96.5262 0)
+			(at 205.74 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6780,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.01 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6798,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6807,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 207.01 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6816,7 @@
 			)
 		)
 		(property "LCSC Part" "C1691"
-			(at 207.01 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,6 +6970,74 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5196591e-ed2d-459b-9d8b-9c5337d0f42a")
+		(property "Reference" "#PWR064"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705aba98-c42c-46ae-980a-4d700e4cae13")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7094,6 +7264,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 214.63 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ba83c1c-4dea-43db-adaa-d08f63b7268e")
+		(property "Reference" "C22"
+			(at 216.408 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C85864"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "535ff8b0-a07a-4e40-8d3a-5116cbaab86c")
+		)
+		(pin "2"
+			(uuid "0c051f2c-e69d-45b9-a884-310871f8bfb5")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 250.19 149.86 270)
 		(unit 1)
@@ -7175,7 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84263"
+		(property "LCSC Part" "C7429915"
 			(at 250.19 149.86 90)
 			(effects
 				(font
@@ -7186,6 +7461,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 250.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 250.19 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7876,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin"
+		(property "Value" "Pogo-pin 4mm"
 			(at 257.81 84.8532 90)
 			(effects
 				(font
@@ -7651,7 +7935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 99.06 0)
+		(at 208.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7660,7 +7944,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d92960-bab8-4c97-8974-4ee56b67d1a8")
 		(property "Reference" "#PWR014"
-			(at 207.01 105.41 0)
+			(at 208.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 104.14 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84263"
+		(property "LCSC Part" "C7429915"
 			(at 261.62 149.86 90)
 			(effects
 				(font
@@ -8202,6 +8486,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 261.62 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8648,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 245.11 149.86 90)
 			(effects
 				(font
@@ -8373,7 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19171301"
+		(property "LCSC Part" "C7429915"
 			(at 245.11 149.86 90)
 			(effects
 				(font
@@ -8535,6 +8828,83 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_Pollen:pogo-pin")
+		(at 147.32 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b99d2ced-1216-4f13-910e-d81ce938961c")
+		(property "Reference" "J10"
+			(at 143.51 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pogo-pin 2A"
+			(at 144.78 88.6632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_YZ08415060P-02_pogo"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pogo-pin"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7471674"
+			(at 147.32 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68b7d097-d19e-457c-94ef-a0e6190d75b3")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9337,6 +9707,82 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ec3a3e77-30fe-492f-b078-679dd81c06c1")
+		(property "Reference" "R23"
+			(at 144.526 102.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "DNP - 0R"
+			(at 149.86 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 147.32 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df364ae4-0174-433d-9424-6ce9a56e1e63")
+		)
+		(pin "1"
+			(uuid "7f81adda-cd24-4fb1-a092-674a954bb450")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "R23")
 					(unit 1)
 				)
 			)

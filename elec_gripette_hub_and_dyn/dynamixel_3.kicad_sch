@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Grippette - USB hub and Dynamixel device")
-		(date "2026-04-16")
-		(rev "A1")
+		(date "2026-05-27")
+		(rev "B1")
 		(company "Pollen Robotics/HF")
 	)
 	(lib_symbols
@@ -2370,6 +2370,12 @@
 		(uuid "6f571952-a4b1-4d87-8e73-2f86445b77ea")
 	)
 	(junction
+		(at 311.15 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7143d3fa-305b-4d1a-b679-1225983b0a71")
+	)
+	(junction
 		(at 215.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2591,6 +2597,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3d5d81-aa08-4e10-accf-cbeb1f33927b")
+	)
+	(wire
+		(pts
 			(xy 328.93 189.23) (xy 321.31 189.23)
 		)
 		(stroke
@@ -2618,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "2410a349-ef37-4322-bce9-7e425c63a231")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d84c65-97f4-40a5-86ee-e61e57fad1f6")
 	)
 	(wire
 		(pts
@@ -2711,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 133.35 125.73)
+			(xy 104.14 125.73) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 173.99) (xy 317.5 173.99)
+			(xy 307.34 173.99) (xy 311.15 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3181,6 +3207,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 171.45) (xy 311.15 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d248933-de17-46da-9d83-a6354f9166d3")
+	)
+	(wire
+		(pts
 			(xy 228.6 120.65) (xy 232.41 120.65)
 		)
 		(stroke
@@ -3291,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 137.16 123.19)
+			(xy 104.14 123.19) (xy 109.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3471,6 +3507,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 171.45) (xy 311.15 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9adc88a-8583-4049-9394-1600b2ac2acf")
+	)
+	(wire
+		(pts
 			(xy 91.44 101.6) (xy 91.44 116.84)
 		)
 		(stroke
@@ -3508,6 +3554,16 @@
 			(type default)
 		)
 		(uuid "f0eca586-8c92-4b74-af67-b4a34c44c06c")
+	)
+	(wire
+		(pts
+			(xy 311.15 173.99) (xy 317.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e7f18e-c7d1-4288-b3c7-22d719d55b32")
 	)
 	(wire
 		(pts
@@ -5447,7 +5503,7 @@
 		(uuid "6d765d77-2cc1-449b-9842-cec23051e6f7")
 	)
 	(label "Rx"
-		(at 124.46 125.73 0)
+		(at 127 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5457,7 +5513,7 @@
 		(uuid "ce071bb5-373a-456c-8890-e3e709bc0959")
 	)
 	(label "Tx"
-		(at 124.46 123.19 0)
+		(at 127 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5487,6 +5543,17 @@
 			(justify right)
 		)
 		(uuid "42d22443-6992-4dbc-b8f1-c22a91dc8440")
+	)
+	(hierarchical_label "Dyn_data"
+		(shape input)
+		(at 312.42 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b6e80c5-9635-4af7-a839-2aa8f030dce3")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -6267,6 +6334,82 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "260bb539-76c7-485c-b742-9b00fde1189c")
+		(property "Reference" "R29"
+			(at 107.95 124.714 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 115.316 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 111.76 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9f9fcb8-69df-466e-9efa-d4db30298d63")
+		)
+		(pin "1"
+			(uuid "468bf66c-666d-480b-b940-f00ed5af57be")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8841,6 +8984,82 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b27895f8-67a8-48a7-91a5-d07b807b9ad3")
+		(property "Reference" "R17"
+			(at 107.95 122.174 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 115.316 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 111.76 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d77b51e8-86f7-4dc6-9fc7-1c56e4d4d753")
+		)
+		(pin "1"
+			(uuid "83fc2649-628b-4016-9194-7f43b499a179")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
+					(reference "R17")
 					(unit 1)
 				)
 			)

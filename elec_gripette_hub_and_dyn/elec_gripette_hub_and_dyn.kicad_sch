@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Grippette - USB hub and Dynamixel device")
-		(date "2026-04-16")
-		(rev "A1")
+		(date "2026-05-27")
+		(rev "B1")
 		(company "Pollen Robotics/HF")
 	)
 	(lib_symbols
@@ -550,6 +550,17 @@
 		)
 		(uuid "19404b3d-febf-4cb1-86eb-41ed4fc6fb19")
 	)
+	(text "[fix] Spacers in the BoM\n[fix] DCDC is now 5A capable\n[fix] USB pogo-pins position\n[update] 5V DCDC is on Vbus\n[update] 4 mm spacers/pogo-pins\n[added] Test points + access to UART-Dynamixel\n[added] Hub reset rasp-accessible"
+		(exclude_from_sim no)
+		(at 92.71 69.342 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "19a2ac04-93bc-4a09-a9b6-b907404cca4f")
+	)
 	(text "Check"
 		(exclude_from_sim no)
 		(at 77.47 38.1 0)
@@ -607,7 +618,7 @@
 	)
 	(text "Motors"
 		(exclude_from_sim no)
-		(at 136.398 120.142 0)
+		(at 139.192 125.73 0)
 		(effects
 			(font
 				(size 2 2)
@@ -630,7 +641,7 @@
 	)
 	(text "Raspberry PI"
 		(exclude_from_sim no)
-		(at 78.486 94.742 0)
+		(at 78.486 101.092 0)
 		(effects
 			(font
 				(size 2 2)
@@ -653,7 +664,7 @@
 	)
 	(text "Camera"
 		(exclude_from_sim no)
-		(at 137.16 94.742 0)
+		(at 137.16 101.092 0)
 		(effects
 			(font
 				(size 2 2)
@@ -673,6 +684,17 @@
 			(justify left bottom)
 		)
 		(uuid "8871bca3-55b7-4e24-a38f-cc9e184422ab")
+	)
+	(text "EB"
+		(exclude_from_sim no)
+		(at 63.5 50.038 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f1c4caa-e7d7-4faa-ad6a-cfabc3fc470d")
 	)
 	(text "- la rasp zero 2w fait convertisseur module camera vers usb\n- on ajoute un converto USB-232 pour aller \n   taper dans les moteurs de gripette\n- un ajoute un hub pour factoriser tout ce petit monde sur \n   un seul câble\n- on met un DCDC 24->12\n- le tout sur un \"under-HAT\", sous la rasp, histoire de profiter \n   de la paire diff USB sans utiliser de connecteur (juste des \n   pogo-pins)\n- universel: ça doit fonctionner sur OpenArm, SO100…\n- options: IMU, connecteur Qwiic…"
 		(exclude_from_sim no)
@@ -720,7 +742,7 @@
 	)
 	(text "Bulkhead adapter"
 		(exclude_from_sim no)
-		(at 32.766 131.064 90)
+		(at 32.766 139.954 90)
 		(effects
 			(font
 				(size 1.8 1.8)
@@ -730,9 +752,9 @@
 		)
 		(uuid "c8e9e649-6940-4ffe-b865-5c65acc2b634")
 	)
-	(text "ToDo:\n - Spacers are Excluded from the BoM!\n - EN pin should not exceed 6V\n - pogo-pins of USB pair are too high (should be 3mm)\n - xtra gnd pogo (or closer one)\n - USB pair pads are shifted of 1 mm in Y (should be 1,92 mm)\n - DCDC 5V should be wired on Vbus (on A1 hot-plugging motors: short circuit)\n - DXL/Feetech compat (DIP switch + MOS?)\n - reseting usb hub\n - add jumper for accessing uart-dynamixel from rasp-uart\n - fix led colors, should be 4xgreen + 1 red\n - add uart for terminal?"
+	(text "ToDo:\n - DXL/Feetech compat (DIP switch + MOS?)\n - add jumper for accessing uart-dynamixel from rasp-uart"
 		(exclude_from_sim no)
-		(at 44.958 126.238 0)
+		(at 20.828 87.884 0)
 		(effects
 			(font
 				(size 3 3)
@@ -746,6 +768,28 @@
 	)
 	(text "SN"
 		(exclude_from_sim no)
+		(at 78.74 50.038 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "e881d9db-4ab5-4ada-a480-7836f5091b60")
+	)
+	(text "dd/mm/2026"
+		(exclude_from_sim no)
+		(at 39.37 50.038 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef6f474b-4bc2-4199-8b40-2f9cbed6c1fe")
+	)
+	(text "SN"
+		(exclude_from_sim no)
 		(at 78.74 44.45 0)
 		(effects
 			(font
@@ -754,6 +798,17 @@
 			(justify left bottom)
 		)
 		(uuid "f4723e2a-7a83-4da7-82f6-af7550fc504a")
+	)
+	(text "B1"
+		(exclude_from_sim no)
+		(at 19.05 50.038 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "f51e040a-8ccd-4399-823b-ad4e1feb0597")
 	)
 	(text "Comments"
 		(exclude_from_sim no)
@@ -795,9 +850,19 @@
 		(color 0 0 0 0)
 		(uuid "f8474a6a-8d99-4ed8-91d9-84ef40fe540a")
 	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 132.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00272f57-a102-457c-833c-ce6605bb5b09")
+	)
 	(polyline
 		(pts
-			(xy 154.94 118.11) (xy 156.21 118.11)
+			(xy 154.94 123.19) (xy 156.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +882,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 116.84) (xy 129.54 144.78)
+			(xy 129.54 121.92) (xy 129.54 153.67)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +892,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 124.46) (xy 46.99 124.46)
+			(xy 40.64 133.35) (xy 46.99 133.35)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +902,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 123.19) (xy 40.64 125.73)
+			(xy 40.64 132.08) (xy 40.64 134.62)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +922,7 @@
 	)
 	(polyline
 		(pts
-			(xy 67.31 91.44) (xy 67.31 110.49)
+			(xy 67.31 97.79) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +932,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 139.7) (xy 40.64 142.24)
+			(xy 40.64 148.59) (xy 40.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +952,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 91.44) (xy 129.54 104.14)
+			(xy 129.54 97.79) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +962,7 @@
 	)
 	(polyline
 		(pts
-			(xy 27.94 116.84) (xy 27.94 144.78)
+			(xy 27.94 125.73) (xy 27.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +972,7 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 123.19) (xy 64.77 125.73)
+			(xy 64.77 132.08) (xy 64.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +982,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 104.14) (xy 147.32 91.44)
+			(xy 147.32 110.49) (xy 147.32 97.79)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +992,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 91.44) (xy 67.31 91.44)
+			(xy 124.46 97.79) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +1012,7 @@
 	)
 	(polyline
 		(pts
-			(xy 58.42 140.97) (xy 64.77 140.97)
+			(xy 58.42 149.86) (xy 64.77 149.86)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +1032,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 144.78) (xy 154.94 116.84)
+			(xy 154.94 153.67) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
@@ -975,9 +1040,19 @@
 		)
 		(uuid "554daafe-8c44-48d5-89e5-bfee84aa66aa")
 	)
+	(wire
+		(pts
+			(xy 132.08 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a783ce8-e0c6-4f1b-b923-95efa11c10aa")
+	)
 	(polyline
 		(pts
-			(xy 156.21 118.11) (xy 156.21 146.05)
+			(xy 156.21 123.19) (xy 156.21 154.94)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1072,7 @@
 	)
 	(polyline
 		(pts
-			(xy 55.88 124.46) (xy 57.15 124.46)
+			(xy 55.88 133.35) (xy 57.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 125.73) (xy 99.06 125.73)
+			(xy 92.71 138.43) (xy 99.06 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1102,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 144.78) (xy 38.1 116.84)
+			(xy 38.1 153.67) (xy 38.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1037,7 +1112,7 @@
 	)
 	(polyline
 		(pts
-			(xy 50.8 124.46) (xy 52.07 124.46)
+			(xy 50.8 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1122,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.34 124.46) (xy 54.61 124.46)
+			(xy 53.34 133.35) (xy 54.61 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1055,9 +1130,19 @@
 		)
 		(uuid "7a695f46-b029-483a-98dc-30a43df69bb4")
 	)
+	(wire
+		(pts
+			(xy 132.08 125.73) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eac2641-fca9-49f3-a037-fdc248aa7686")
+	)
 	(polyline
 		(pts
-			(xy 48.26 140.97) (xy 49.53 140.97)
+			(xy 48.26 149.86) (xy 49.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1152,7 @@
 	)
 	(polyline
 		(pts
-			(xy 130.81 144.78) (xy 130.81 146.05)
+			(xy 130.81 153.67) (xy 130.81 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1172,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 144.78) (xy 154.94 144.78)
+			(xy 129.54 153.67) (xy 154.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1182,7 @@
 	)
 	(polyline
 		(pts
-			(xy 50.8 140.97) (xy 52.07 140.97)
+			(xy 50.8 149.86) (xy 52.07 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 156.21 146.05) (xy 130.81 146.05)
+			(xy 156.21 154.94) (xy 130.81 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 27.94 144.78) (xy 38.1 144.78)
+			(xy 27.94 153.67) (xy 38.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1212,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 110.49) (xy 124.46 91.44)
+			(xy 124.46 116.84) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1252,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 91.44) (xy 129.54 91.44)
+			(xy 147.32 97.79) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1262,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 140.97) (xy 46.99 140.97)
+			(xy 40.64 149.86) (xy 46.99 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1272,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 116.84) (xy 27.94 116.84)
+			(xy 38.1 125.73) (xy 27.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1282,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.34 140.97) (xy 54.61 140.97)
+			(xy 53.34 149.86) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 99.06 123.19)
+			(xy 92.71 135.89) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1302,7 @@
 	)
 	(polyline
 		(pts
-			(xy 55.88 140.97) (xy 57.15 140.97)
+			(xy 55.88 149.86) (xy 57.15 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1312,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 116.84) (xy 129.54 116.84)
+			(xy 154.94 121.92) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1332,7 @@
 	)
 	(polyline
 		(pts
-			(xy 67.31 110.49) (xy 124.46 110.49)
+			(xy 67.31 116.84) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1342,7 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 139.7) (xy 64.77 142.24)
+			(xy 64.77 148.59) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1352,7 @@
 	)
 	(polyline
 		(pts
-			(xy 58.42 124.46) (xy 64.77 124.46)
+			(xy 58.42 133.35) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1362,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 124.46) (xy 49.53 124.46)
+			(xy 48.26 133.35) (xy 49.53 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1372,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 104.14) (xy 147.32 104.14)
+			(xy 129.54 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4416,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 138.43)
+		(at 67.31 147.32)
 		(size 57.15 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4347,7 +4432,7 @@
 		)
 		(uuid "75f3f8ec-6d80-4862-afd6-8e1e61b07901")
 		(property "Sheetname" "Power"
-			(at 67.31 137.7184 0)
+			(at 67.31 146.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4441,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 67.31 145.3646 0)
+			(at 67.31 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,8 +4459,61 @@
 		)
 	)
 	(sheet
-		(at 67.31 116.84)
-		(size 25.4 15.24)
+		(at 99.06 121.92)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc0b1e09-656f-43bc-bc99-941dc78ad55d")
+		(property "Sheetname" "Dynamixel-TTL"
+			(at 99.06 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dynamixel_3_from_rasp.kicad_sch"
+			(at 99.06 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Dyn_data" input
+			(at 124.46 125.73 0)
+			(uuid "cffc97d7-3ef8-4e3e-b246-dbdacdfc60fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 121.92)
+		(size 25.4 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4390,7 +4528,7 @@
 		)
 		(uuid "e9a601b3-6083-4e6b-bf3c-c882a3dda5f3")
 		(property "Sheetname" "USB hub"
-			(at 67.31 116.1284 0)
+			(at 67.31 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4537,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_hub.kicad_sch"
-			(at 67.31 132.6646 0)
+			(at 67.31 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4547,7 @@
 			)
 		)
 		(pin "USB_DynN" input
-			(at 92.71 125.73 0)
+			(at 92.71 138.43 0)
 			(uuid "79ee4adf-8f2a-4808-979e-f2489f43638f")
 			(effects
 				(font
@@ -4419,7 +4557,7 @@
 			)
 		)
 		(pin "USB_DynP" input
-			(at 92.71 123.19 0)
+			(at 92.71 135.89 0)
 			(uuid "6d1264ff-62e8-4e10-95e0-edd0b79c93ca")
 			(effects
 				(font
@@ -4437,8 +4575,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 116.84)
-		(size 25.4 15.24)
+		(at 99.06 133.35)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4452,8 +4590,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "edad0453-e3dd-48f4-9e65-34ff832c5255")
-		(property "Sheetname" "Dynamixel 3"
-			(at 99.06 116.1284 0)
+		(property "Sheetname" "Dynamixel-TTL over USB"
+			(at 99.06 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4600,7 @@
 			)
 		)
 		(property "Sheetfile" "dynamixel_3.kicad_sch"
-			(at 99.06 132.6646 0)
+			(at 99.06 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4610,7 @@
 			)
 		)
 		(pin "USB_DynN" input
-			(at 99.06 125.73 180)
+			(at 99.06 138.43 180)
 			(uuid "772ad2a9-5b29-43f5-a3ea-2cb7b9f5ec7b")
 			(effects
 				(font
@@ -4482,13 +4620,23 @@
 			)
 		)
 		(pin "USB_DynP" input
-			(at 99.06 123.19 180)
+			(at 99.06 135.89 180)
 			(uuid "b2a7885b-81ba-4ceb-8172-187d5a4aa716")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Dyn_data" input
+			(at 124.46 137.16 0)
+			(uuid "c0995994-e931-447b-9a8c-63a98f3ea226")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
