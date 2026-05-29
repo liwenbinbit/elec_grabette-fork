@@ -357,113 +357,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2482,6 +2375,10 @@
 		(uuid "7b7cf4c1-872e-4275-adee-0e07cb038f24")
 	)
 	(no_connect
+		(at 104.14 140.97)
+		(uuid "d005c188-97d6-48cd-a02a-24f34a24ed79")
+	)
+	(no_connect
 		(at 104.14 138.43)
 		(uuid "ec6466dd-6fe6-4ef9-a2e2-d72ffc9cfec7")
 	)
@@ -3224,16 +3121,6 @@
 			(type default)
 		)
 		(uuid "9ea71835-c485-44b0-9503-1627498c6b4e")
-	)
-	(wire
-		(pts
-			(xy 105.41 140.97) (xy 104.14 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9f723a-bf5e-4dfb-8cc9-e80046475376")
 	)
 	(wire
 		(pts
@@ -5522,7 +5409,7 @@
 		)
 		(uuid "f1ee3c70-34a7-438d-a290-b51202018d0b")
 	)
-	(hierarchical_label "USB_DynN"
+	(hierarchical_label "hub_DP2-"
 		(shape input)
 		(at 50.8 133.35 180)
 		(effects
@@ -5533,7 +5420,7 @@
 		)
 		(uuid "1801dd44-b0f5-4d91-803c-1ef23163b1c7")
 	)
-	(hierarchical_label "USB_DynP"
+	(hierarchical_label "hub_DP2+"
 		(shape input)
 		(at 50.8 130.81 180)
 		(effects
@@ -5674,83 +5561,6 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09530e46-e551-4e5d-b52c-498440a23f24")
-		(property "Reference" "TP1"
-			(at 110.49 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.49 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 105.41 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d44b3207-5edc-4ae6-b2fe-98e377f66196")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/edad0453-e3dd-48f4-9e65-34ff832c5255"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

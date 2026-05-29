@@ -8567,7 +8567,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin 2A"
+		(property "Value" "Pogo-pin 2A 4mm"
 			(at 236.22 119.1432 90)
 			(effects
 				(font
@@ -8746,7 +8746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 48.26 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 50.8 0)
 			(effects
 				(font

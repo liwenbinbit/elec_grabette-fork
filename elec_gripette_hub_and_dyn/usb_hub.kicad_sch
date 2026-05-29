@@ -2726,7 +2726,7 @@
 	)
 	(text "Reseting the hub\nfrom the rasp"
 		(exclude_from_sim no)
-		(at 147.066 78.486 0)
+		(at 147.066 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2753,6 +2753,16 @@
 			)
 		)
 		(uuid "d82afd29-407c-41c1-b7e1-87ecb1c92d96")
+	)
+	(text "IO 17, H. pin 11"
+		(exclude_from_sim no)
+		(at 147.066 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8632e4a-29ab-4039-88eb-427992e45cc2")
 	)
 	(text "hub active/suspend indicator"
 		(exclude_from_sim no)
@@ -5735,7 +5745,7 @@
 			"HsMbj5ktMRw4cODAgQMHDhw4cODAgQMHDhw4cODAgYO6x/8HPATdApEo8OIAAAAASUVORK5CYII="
 		)
 	)
-	(label "DM+"
+	(label "hub_DU+"
 		(at 143.51 115.57 180)
 		(effects
 			(font
@@ -5745,7 +5755,7 @@
 		)
 		(uuid "150ea2b6-333e-4be0-aba8-113976d4709d")
 	)
-	(label "rasp_D+"
+	(label "hub_DP1+"
 		(at 236.22 110.49 0)
 		(effects
 			(font
@@ -5755,7 +5765,7 @@
 		)
 		(uuid "3ac00ca2-f7f2-4943-8db2-afe35d8e7902")
 	)
-	(label "hub_dp3N"
+	(label "hub_DP3-"
 		(at 219.71 128.27 0)
 		(effects
 			(font
@@ -5765,7 +5775,7 @@
 		)
 		(uuid "75a74be7-50c9-4b49-b412-9deb1b9af893")
 	)
-	(label "hub_dp4N"
+	(label "hub_DP4-"
 		(at 219.71 135.89 0)
 		(effects
 			(font
@@ -5775,7 +5785,7 @@
 		)
 		(uuid "9176ef50-8170-42a7-956b-30e4ba57677d")
 	)
-	(label "DM-"
+	(label "hub_DU-"
 		(at 143.51 118.11 180)
 		(effects
 			(font
@@ -5785,7 +5795,7 @@
 		)
 		(uuid "b0347029-a06e-48e9-9a5c-b454d7ddc0fe")
 	)
-	(label "rasp_D-"
+	(label "hub_DP1-"
 		(at 236.22 113.03 0)
 		(effects
 			(font
@@ -5795,7 +5805,7 @@
 		)
 		(uuid "b489b851-5eb9-4573-9c07-d212c3ed3d05")
 	)
-	(label "hub_dp4P"
+	(label "hub_DP4+"
 		(at 219.71 133.35 0)
 		(effects
 			(font
@@ -5805,7 +5815,7 @@
 		)
 		(uuid "d95addbd-3ac7-491f-a94a-894f2ee08e92")
 	)
-	(label "hub_dp3P"
+	(label "hub_DP3+"
 		(at 219.71 125.73 0)
 		(effects
 			(font
@@ -5815,7 +5825,7 @@
 		)
 		(uuid "f79cac21-f9d5-4cd1-b1ea-14d8f74d0700")
 	)
-	(hierarchical_label "USB_DynN"
+	(hierarchical_label "hub_DP2-"
 		(shape input)
 		(at 262.89 120.65 0)
 		(effects
@@ -5826,7 +5836,7 @@
 		)
 		(uuid "3c07a246-b1ec-4fc1-ae36-1e9923aa7b43")
 	)
-	(hierarchical_label "USB_DynP"
+	(hierarchical_label "hub_DP2+"
 		(shape input)
 		(at 262.89 118.11 0)
 		(effects
@@ -8852,7 +8862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin 2A"
+		(property "Value" "Pogo-pin 4mm"
 			(at 144.78 88.6632 90)
 			(effects
 				(font
@@ -8862,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:CONN-TH_YZ08415060P-02_pogo"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_YZ95315064P-01_pogo"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -8889,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7471674"
+		(property "LCSC Part" "C5157245"
 			(at 147.32 93.98 90)
 			(effects
 				(font
