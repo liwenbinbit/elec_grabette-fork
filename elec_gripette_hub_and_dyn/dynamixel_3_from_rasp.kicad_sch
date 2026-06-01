@@ -1025,6 +1025,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:MCP1700x-330xxTT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP1700x-330xxTT"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "regulator linear ldo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1700x-330xxTT_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1700x-330xxTT_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:MMBT3906"
 			(pin_names
 				(offset 0)
@@ -1238,6 +1378,131 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1497,6 +1762,16 @@
 		)
 		(uuid "49d1e541-a45e-40d5-a990-6fb38a9f3074")
 	)
+	(text "!! 3V3 !!"
+		(exclude_from_sim no)
+		(at 70.866 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da38192e-49ef-47e2-afa1-2557bf5922b6")
+	)
 	(text_box "Dynamixel TTL\nfrom Rasp."
 		(exclude_from_sim no)
 		(at 33.02 30.48 0)
@@ -1518,6 +1793,12 @@
 			(justify left top)
 		)
 		(uuid "c1b58bad-2391-4962-b718-3721770e651f")
+	)
+	(junction
+		(at 123.19 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330606c2-7188-4266-8bde-ce6a4d4ba77c")
 	)
 	(junction
 		(at 207.01 124.46)
@@ -1562,6 +1843,12 @@
 		(uuid "6fbfa923-744e-4fcb-b330-09e0b13f32d0")
 	)
 	(junction
+		(at 151.13 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e25d76-5bbf-4ae9-a4b0-92bec5619156")
+	)
+	(junction
 		(at 118.11 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1598,6 +1885,16 @@
 			(type default)
 		)
 		(uuid "0cfbf2e0-66f8-4a71-8486-8aea621ea689")
+	)
+	(wire
+		(pts
+			(xy 154.94 209.55) (xy 154.94 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187a4cc1-cf07-4d8d-9a86-6080ebb9edb9")
 	)
 	(wire
 		(pts
@@ -1671,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 205.74) (xy 181.61 209.55)
+			(xy 181.61 207.01) (xy 181.61 209.55)
 		)
 		(stroke
 			(width 0)
@@ -1688,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "2df49ca4-dadb-47fc-940e-17d189d3ca3d")
+	)
+	(wire
+		(pts
+			(xy 123.19 209.55) (xy 119.38 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e68b5dd-2569-4490-920b-6c843a7fda53")
 	)
 	(wire
 		(pts
@@ -1771,6 +2078,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 209.55) (xy 151.13 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bc6886-40b2-4634-b1e0-d8474a9e03fe")
+	)
+	(wire
+		(pts
+			(xy 119.38 209.55) (xy 119.38 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb26e1f-a762-41c7-ac62-3b781cf01692")
+	)
+	(wire
+		(pts
 			(xy 181.61 217.17) (xy 181.61 219.71)
 		)
 		(stroke
@@ -1808,6 +2135,16 @@
 			(type default)
 		)
 		(uuid "5e3e5c38-4aec-445d-94b7-00b315fd25db")
+	)
+	(wire
+		(pts
+			(xy 123.19 209.55) (xy 123.19 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640db1d7-959f-4cdf-9e2a-3000d1427d6a")
 	)
 	(wire
 		(pts
@@ -1871,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 219.71) (xy 123.19 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97490d9d-083c-438b-b152-464449cda72c")
+	)
+	(wire
+		(pts
 			(xy 111.76 177.8) (xy 175.26 177.8)
 		)
 		(stroke
@@ -1921,6 +2268,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 209.55) (xy 123.19 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeb79c8-3e68-4626-b474-bfb34651285f")
+	)
+	(wire
+		(pts
+			(xy 151.13 219.71) (xy 151.13 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dfc900-9cce-47e5-9a81-ee40374f9b08")
+	)
+	(wire
+		(pts
 			(xy 128.27 86.36) (xy 130.81 86.36)
 		)
 		(stroke
@@ -1938,6 +2305,16 @@
 			(type default)
 		)
 		(uuid "b6ddc1b5-0965-4e27-a0f5-9f0706a68ec7")
+	)
+	(wire
+		(pts
+			(xy 151.13 209.55) (xy 154.94 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b757fd2a-7e89-48ab-9bac-401d3473c36e")
 	)
 	(wire
 		(pts
@@ -2031,6 +2408,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 219.71) (xy 137.16 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2599a21-69e7-446c-bdba-deb3763ed35c")
+	)
+	(wire
+		(pts
 			(xy 203.2 177.8) (xy 240.03 177.8)
 		)
 		(stroke
@@ -2048,6 +2435,16 @@
 			(type default)
 		)
 		(uuid "e5062666-eb41-42ce-a779-c5f18eac6398")
+	)
+	(wire
+		(pts
+			(xy 151.13 209.55) (xy 151.13 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5272a30-103b-454a-8457-6173043623da")
 	)
 	(wire
 		(pts
@@ -4058,72 +4455,6 @@
 		(uuid "a9d4d16f-13e8-4d53-a711-dd3688fa2e42")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 207.01 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a966f9-91ed-4899-8fab-c088974ae5c3")
-		(property "Reference" "#PWR074"
-			(at 207.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34177e69-a112-4431-b061-98f6284c3a31")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 214.63 180)
 		(unit 1)
@@ -4142,7 +4473,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 184.658 206.756 0)
+			(at 185.928 207.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,17 +4683,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 205.74 0)
+		(lib_id "power:+3V3")
+		(at 240.03 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0efe27fb-8409-45cb-9b46-ed4d2555eb65")
-		(property "Reference" "#PWR067"
-			(at 181.61 209.55 0)
+		(uuid "1d395111-267c-4ca2-8836-5cc6fae5c947")
+		(property "Reference" "#PWR075"
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,8 +4701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 181.61 200.66 0)
+		(property "Value" "+3V3"
+			(at 240.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 205.74 0)
+			(at 240.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 205.74 0)
+			(at 240.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,8 +4727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 205.74 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4737,73 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ab45da9-a348-488a-9bd6-636de2bf2f47")
+			(uuid "77641608-1ebb-457b-b9a4-05fc844b3848")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 181.61 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221b4983-645a-49f7-8f01-f0dd0ff1fffc")
+		(property "Reference" "#PWR067"
+			(at 181.61 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 181.61 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "464d09bb-3905-472a-b9d5-e10dabba7be4")
 		)
 		(instances
 			(project "elec_gripette_hub_and_dyn"
@@ -4602,6 +4999,73 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35912702-7285-4a05-85f6-76325006c071")
+		(property "Reference" "#PWR080"
+			(at 151.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdef620c-203d-447c-a09f-554573478cfe")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4839,6 +5303,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:MCP1700x-330xxTT")
+		(at 137.16 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a604328-6d4a-4000-b952-1b91984e45c9")
+		(property "Reference" "U11"
+			(at 137.16 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1700x-330xxTT"
+			(at 137.16 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 137.16 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
+			(at 137.16 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
+			(at 137.16 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C39051"
+			(at 137.16 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b02dea2-749b-45f3-87a4-2b365ee6748b")
+		)
+		(pin "1"
+			(uuid "08b85dab-1b4f-4505-b23c-057cecc20db6")
+		)
+		(pin "3"
+			(uuid "218fecc3-4eb3-48ba-b8de-cbac3843ca6b")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 86.36 129.54 90)
 		(unit 1)
@@ -4916,7 +5460,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 69.85 0)
+		(at 119.38 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4925,7 +5469,7 @@
 		(fields_autoplaced yes)
 		(uuid "4309a38d-85e3-4e49-bd3f-63ccb3a76054")
 		(property "Reference" "#PWR065"
-			(at 138.43 73.66 0)
+			(at 119.38 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5478,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 138.43 64.77 0)
+			(at 119.38 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 69.85 0)
+			(at 119.38 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 69.85 0)
+			(at 119.38 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 69.85 0)
+			(at 119.38 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,72 +5519,6 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 185.42 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4faa3712-97bb-475e-9bc2-16543b121e93")
-		(property "Reference" "#PWR071"
-			(at 185.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 185.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef25d4dd-5437-466d-b3f3-f979d95831ff")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5117,72 +5595,6 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 185.42 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "577c5d8a-6bd1-4e8f-a5fd-1b235e8a7da1")
-		(property "Reference" "#PWR069"
-			(at 185.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d76c4975-d32f-449a-aecd-68434e893544")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5383,6 +5795,72 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dcc6e0b-f315-4769-a773-c9a96c4ad58a")
+		(property "Reference" "#PWR071"
+			(at 185.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f879de60-7460-4a9b-b533-ea9d79c0e840")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5645,6 +6123,179 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74bd1147-3ef6-4b15-b83a-c02764e76a3f")
+		(property "Reference" "#PWR077"
+			(at 137.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fcbe2e-14cd-422a-84b1-dc0f75771461")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 214.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84933011-fd7b-4833-b135-9121c32c8729")
+		(property "Reference" "C26"
+			(at 149.606 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 154.686 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." ""
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." ""
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1592"
+			(at 151.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f329fb43-5ccf-4de0-b67d-3649cb88fbc2")
+		)
+		(pin "2"
+			(uuid "8a852606-4691-4256-b985-d0adc4aa9e9f")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G126")
 		(at 190.5 177.8 0)
 		(unit 1)
@@ -5775,17 +6426,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 240.03 132.08 0)
+		(lib_id "power:+3V3")
+		(at 207.01 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d2248fe-abeb-4be7-b5d8-557ce99412f6")
-		(property "Reference" "#PWR075"
-			(at 240.03 135.89 0)
+		(uuid "8dc4883a-2b83-4497-a21b-ee8af2ab4031")
+		(property "Reference" "#PWR074"
+			(at 207.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,8 +6444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 240.03 127 0)
+		(property "Value" "+3V3"
+			(at 207.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +6453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 132.08 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +6462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 132.08 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,8 +6470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 240.03 132.08 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,12 +6480,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc47688f-2b84-4453-99e2-e1a2d6141dc1")
+			(uuid "645bb2b7-af8a-429d-84c4-aca0f88eef5d")
 		)
 		(instances
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
-					(reference "#PWR075")
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92ab73e1-d54a-4eac-9c0d-62959f83032a")
+		(property "Reference" "#PWR081"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a78d6d59-170e-4c22-8754-9b953e8518f8")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -5959,6 +6676,139 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac5e976-3d07-4456-8101-9a5a8dd6b40a")
+		(property "Reference" "#PWR078"
+			(at 154.94 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10bea8b7-2745-4be4-b133-3b80c0c8a4e8")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c33b514a-6c81-4c78-9acb-a29a7282f904")
+		(property "Reference" "#PWR079"
+			(at 123.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9397172f-9da7-4b13-a4b5-7240b1880b31")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6420,6 +7270,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 214.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfc7e1d7-d5d3-4a03-93e4-3ee3de9de0f8")
+		(property "Reference" "C25"
+			(at 121.666 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 126.746 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." ""
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." ""
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1592"
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf80afc-bf4b-4046-89d6-25a850df724d")
+		)
+		(pin "2"
+			(uuid "4d0bd0f1-e4ca-4fa5-aa6c-b00ad7618b25")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 219.71 0)
 		(unit 1)
@@ -6603,6 +7559,72 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
 					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a9f450-2229-404f-ad52-75264c26690e")
+		(property "Reference" "#PWR069"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc87c49-5cb5-472b-a3d7-356262dc2bd5")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/bc0b1e09-656f-43bc-bc99-941dc78ad55d"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)

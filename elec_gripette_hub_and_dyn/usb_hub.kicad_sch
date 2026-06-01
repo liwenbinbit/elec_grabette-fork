@@ -2297,131 +2297,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2648,6 +2523,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VPP"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VPP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VPP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VPP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VPP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "To the\nmotors"
 		(exclude_from_sim no)
@@ -2714,9 +2714,9 @@
 		)
 		(uuid "9c4f9ef6-aa60-4af1-9256-7da2830a0104")
 	)
-	(text "(internaly generated\n by the USB hub)"
+	(text "(3V3 internaly generated\n by the USB hub)"
 		(exclude_from_sim no)
-		(at 212.344 83.82 0)
+		(at 214.376 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2851,10 +2851,10 @@
 		(uuid "4058dc99-4722-47b3-aefb-c34a73701c43")
 	)
 	(junction
-		(at 175.26 90.17)
+		(at 157.48 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43294836-a652-4f9f-ad34-e5823adec84c")
+		(uuid "43b7407e-791e-4d05-b144-2b3cbc1b9e20")
 	)
 	(junction
 		(at 199.39 90.17)
@@ -3184,16 +3184,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 175.26 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac07f74-93ec-407b-b5b8-501231907d05")
-	)
-	(wire
-		(pts
 			(xy 242.57 208.28) (xy 245.11 208.28)
 		)
 		(stroke
@@ -3244,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 194.31 90.17)
+			(xy 170.18 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3604,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 110.49) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8111ce6d-381f-4864-9060-d07603692742")
+	)
+	(wire
+		(pts
 			(xy 166.37 123.19) (xy 170.18 123.19)
 		)
 		(stroke
@@ -3621,6 +3621,16 @@
 			(type default)
 		)
 		(uuid "84600191-173c-40f8-ba9b-c0d73b562d96")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85938da2-8d46-48d3-ab40-b4d2b93b6664")
 	)
 	(wire
 		(pts
@@ -3864,7 +3874,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 170.18 125.73)
+			(xy 133.35 125.73) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3914,6 +3924,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 125.73) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f24e82-7ba1-40b2-988c-3c04f8556a35")
+	)
+	(wire
+		(pts
 			(xy 241.3 151.13) (xy 241.3 153.67)
 		)
 		(stroke
@@ -3954,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 128.27) (xy 181.61 128.27)
+			(xy 166.37 128.27) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3991,16 +4011,6 @@
 			(type default)
 		)
 		(uuid "f4bf80ae-6e15-4049-876d-3c9cecfa187b")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.17) (xy 175.26 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb71f878-9818-4b99-baf5-44056cc6218d")
 	)
 	(wire
 		(pts
@@ -6092,6 +6102,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VPP")
+		(at 199.39 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "160b9bd4-363c-460b-9e9f-5e9b82c7362a")
+		(property "Reference" "#PWR082"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8816212-b224-448a-81c0-4986b403f371")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Pollen:pogo-pin")
 		(at 264.16 90.17 270)
 		(mirror x)
@@ -6163,72 +6239,6 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 199.39 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f0b0fd2-9303-4017-8351-e33b50a2e8cb")
-		(property "Reference" "#PWR06"
-			(at 199.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06aad957-dafa-4da4-9ab5-9b47d24750c2")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6986,6 +6996,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VPP")
+		(at 166.37 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5146e8ed-a5b9-4128-9967-3261cf107c00")
+		(property "Reference" "#PWR06"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 162.56 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f698f0e9-c54b-47be-9f77-295036c9a817")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 99.06 0)
 		(mirror y)
@@ -7048,72 +7125,6 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 237.49 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53704a1b-c356-4b01-831b-e857d1ddf37b")
-		(property "Reference" "#PWR016"
-			(at 237.49 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 237.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4bdd371-9dc9-4cd3-9061-32abd9027656")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7743,6 +7754,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VPP")
+		(at 233.68 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75eff2b3-8194-4119-baad-55f64bae2e5c")
+		(property "Reference" "#PWR015"
+			(at 237.49 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 229.87 208.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41c49bb-d7e2-4ea6-a687-703ba65b0307")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 255.27 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7acb5277-641c-4c39-8577-15cb20984672")
+		(property "Reference" "#PWR020"
+			(at 255.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 255.27 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 255.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b49b73d1-11ce-454d-8322-459fe2c5ac7f")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 240.03 208.28 270)
 		(mirror x)
@@ -8337,73 +8481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 166.37 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92dd2fac-6314-4f7b-aa84-0aca2fe06aa2")
-		(property "Reference" "#PWR012"
-			(at 170.18 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53332691-6781-48d8-bcc5-442e7d10725e")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 261.62 149.86 270)
 		(unit 1)
@@ -8528,73 +8605,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 180.34 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9682d170-dbf1-42b3-88c3-7c9ba78d5e4c")
-		(property "Reference" "#PWR057"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 176.53 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c21f3e2-a52c-4843-b72a-f4d57e257483")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 245.11 149.86 90)
 		(unit 1)
@@ -8710,6 +8720,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VPP")
+		(at 237.49 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f50b29-001f-48ff-b3c3-d6b108d33df5")
+		(property "Reference" "#PWR016"
+			(at 237.49 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 237.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d35fa6-ea46-4337-9c8e-10ac15dac012")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 132.08 0)
 		(unit 1)
@@ -8771,6 +8847,91 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 172.72 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf4be89-e9e9-495d-8cfa-7e756c275dc1")
+		(property "Reference" "R41"
+			(at 169.164 109.22 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 176.53 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 172.72 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 172.72 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfa25eec-c6c5-4e31-b8a0-eb9ef0e957b5")
+		)
+		(pin "1"
+			(uuid "85a47de2-8cae-4cd3-8399-bca606a7ce71")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9397,139 +9558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddc5fa59-3b13-45dc-b84f-665b27640329")
-		(property "Reference" "#PWR020"
-			(at 255.27 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5aeacf5e-1a75-4939-9f48-cbd18fc11e06")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 233.68 208.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1fbe964-9760-49c2-9429-0782067ee487")
-		(property "Reference" "#PWR015"
-			(at 237.49 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 229.87 208.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 233.68 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f6431dd-a139-48e7-9345-19d045b3eca6")
-		)
-		(instances
-			(project "elec_gripette_hub_and_dyn"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 179.07 161.29 0)
 		(mirror y)
@@ -9927,6 +9955,73 @@
 			(project "elec_gripette_hub_and_dyn"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 166.37 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57b6768-4f01-4eee-b272-fa421a264751")
+		(property "Reference" "#PWR083"
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 162.56 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f23471-e321-41fe-8c1b-75d0e86233f1")
+		)
+		(instances
+			(project "elec_gripette_hub_and_dyn"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/e9a601b3-6083-4e6b-bf3c-c882a3dda5f3"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
