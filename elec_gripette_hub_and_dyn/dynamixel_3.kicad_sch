@@ -7799,7 +7799,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP - 0R"
+		(property "Value" "DNP-0R"
 			(at 185.166 109.22 90)
 			(effects
 				(font
@@ -7807,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 106.68 0)
 			(effects
 				(font
@@ -7834,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 185.42 106.68 90)
 			(effects
 				(font
