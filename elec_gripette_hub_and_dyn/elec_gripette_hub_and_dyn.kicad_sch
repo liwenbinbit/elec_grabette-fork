@@ -539,6 +539,17 @@
 			"IO_26" "IO_27"
 		)
 	)
+	(text "B2"
+		(exclude_from_sim no)
+		(at 19.05 75.438 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "157bd209-7657-4e56-b779-9aa4eb825399")
+	)
 	(text "Date"
 		(exclude_from_sim no)
 		(at 39.37 38.1 0)
@@ -707,6 +718,17 @@
 		)
 		(uuid "8fe6a943-bab5-40d9-9dab-3dcb61a7a007")
 	)
+	(text "SN"
+		(exclude_from_sim no)
+		(at 78.74 75.438 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "a62d4025-edd6-4add-b547-32072e246f2f")
+	)
 	(text "- SO10x: USB connector + Dynamixel/Feetech @7,4V\n- OpenArm: USB connector + 24V on XT60"
 		(exclude_from_sim no)
 		(at 179.07 123.444 0)
@@ -740,6 +762,28 @@
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
 	)
+	(text "TODO: \n - nopop pogo\n - easier motor voltage selection\n - fix motor connector to Feetech"
+		(exclude_from_sim no)
+		(at 93.218 85.09 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "baaf5faf-04e2-4585-828a-c51863c50248")
+	)
+	(text "EB"
+		(exclude_from_sim no)
+		(at 63.5 75.438 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "badda505-4fbb-4a59-8756-9067b34638eb")
+	)
 	(text "Bulkhead adapter"
 		(exclude_from_sim no)
 		(at 32.766 139.954 90)
@@ -751,6 +795,17 @@
 			)
 		)
 		(uuid "c8e9e649-6940-4ffe-b865-5c65acc2b634")
+	)
+	(text "29/06/2026"
+		(exclude_from_sim no)
+		(at 39.37 75.438 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6d50ed3-f4c0-4065-b747-2907f0d4e3e5")
 	)
 	(text "SN"
 		(exclude_from_sim no)
@@ -928,7 +983,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 35.56) (xy 91.44 71.12)
+			(xy 91.44 35.56) (xy 91.44 78.74)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +1043,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 35.56) (xy 38.1 71.12)
+			(xy 38.1 35.56) (xy 38.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1263,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 35.56) (xy 60.96 71.12)
+			(xy 60.96 35.56) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1273,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 35.56) (xy 76.2 71.12)
+			(xy 76.2 35.56) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1365,6 +1420,16 @@
 			(type default)
 		)
 		(uuid "e091fa5f-84ea-4223-8e52-2d150c955edf")
+	)
+	(polyline
+		(pts
+			(xy 19.05 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31b7815-00ab-4f45-9927-db04e21c1754")
 	)
 	(wire
 		(pts
