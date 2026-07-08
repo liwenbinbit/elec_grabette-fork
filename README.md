@@ -1,13 +1,13 @@
 # "Grabette"/"Gripette" Electronic Boards
 
-This repository is part of the "Grabette" project (https://github.com/pollen-robotics/grabette). It gathers several small PCBs of Grabette/Gripette. 
+This repository is part of the ["Grabette" project](https://github.com/pollen-robotics/grabette). It gathers several small PCBs of Grabette/Gripette. 
 
 ## Grabette
 Grapette is the data acquisition side.
 
 <img src="./docs/CAB01194_wiring_of_grabette.png" alt="grabette wiring"  width="800"/>
 
-It is based on a battery-powered Raspberry PI 4 plus a HAT (github.com/pollen-robotics/elec_RPI_Robot_HAT) to which a serie of sensing elements is added. Camera, Stereo Camera, angle sensors, IMU (included on the HAT) and a button + a LED as user interface.
+It is based on a battery-powered Raspberry PI 4 plus a [HAT](https://github.com/pollen-robotics/elec_RPI_Robot_HAT) to which a serie of sensing elements is added. Camera, Stereo Camera, angle sensors, IMU (included on the HAT) and a button + a LED as user interface.
 
  - angle_sensor
 
