@@ -2004,6 +2004,17 @@
 		)
 		(uuid "ac9667d7-cd1e-4c91-8948-647041f3fcde")
 	)
+	(text "Todo:\n - ideal diode to avoid reverse supplying?"
+		(exclude_from_sim no)
+		(at 106.68 82.55 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad91d397-4fe2-4861-a961-f34fb3771bf1")
+	)
 	(text "Nota: choose output voltage thanks to 0R. Default is 12V."
 		(exclude_from_sim no)
 		(at 125.476 131.572 0)

@@ -8653,6 +8653,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 334.01 191.77 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8669,7 +8670,7 @@
 			)
 		)
 		(property "Value" "Feetech"
-			(at 337.82 194.31 0)
+			(at 337.82 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,6 +8772,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 334.01 176.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8787,7 +8789,7 @@
 			)
 		)
 		(property "Value" "Feetech"
-			(at 337.82 179.07 0)
+			(at 337.82 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

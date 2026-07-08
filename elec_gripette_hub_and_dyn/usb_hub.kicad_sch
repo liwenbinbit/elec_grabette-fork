@@ -6175,7 +6175,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ad89280-2125-444b-9442-32b3c72fb53e")
 		(property "Reference" "J6"
 			(at 268.224 82.296 90)
@@ -6186,7 +6186,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin 4mm"
+		(property "Value" "DNP - Pogo-pin 4mm"
 			(at 261.62 84.8532 90)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "82d442b0-8c15-4b08-b78b-87860bd63197")
 		(property "Reference" "J3"
 			(at 257.81 82.3132 90)
@@ -8030,7 +8030,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Pogo-pin 4mm"
+		(property "Value" "DNP - Pogo-pin 4mm"
 			(at 257.81 84.8532 90)
 			(effects
 				(font

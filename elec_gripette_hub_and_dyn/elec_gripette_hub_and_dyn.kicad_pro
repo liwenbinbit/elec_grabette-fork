@@ -530,7 +530,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "fab/elec_gripette_hub_and_dyn.step",
+      "step": "fab/ASE01201-B2_elec_gripette_hub_and_dyn_STEP.step",
       "svg": "",
       "vrml": ""
     },
