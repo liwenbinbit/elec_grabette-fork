@@ -1871,7 +1871,7 @@
 				)
 			)
 		)
-		(property "Value" "Dynamixel-3"
+		(property "Value" "DNP - Dynamixel-3"
 			(at 2.5 3.4 0)
 			(layer "F.Fab")
 			(uuid "f4ab0613-6f26-46d3-94ad-8eb63cde861b")
@@ -1975,7 +1975,7 @@
 		(path "/bf9fa125-e0a8-45cc-bbd4-bed4e5d4cb5f")
 		(sheetname "/")
 		(sheetfile "elec_bulkhead_XT60_USB-C.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 7.61 0.81)
 			(end 6.61 0.81)
@@ -5054,7 +5054,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Dynamixel-3"
+		(property "Value" "DNP - Dynamixel-3"
 			(at 2.5 -2.7 90)
 			(layer "B.Fab")
 			(uuid "bedc417b-a7dc-41b6-bcfe-f161d6ea1fc4")
@@ -5166,7 +5166,7 @@
 		(path "/a51c5e7b-d50c-4b24-999d-f03f94b5d876")
 		(sheetname "/")
 		(sheetfile "elec_bulkhead_XT60_USB-C.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -2.61 6.81)
 			(end 7.61 6.81)
