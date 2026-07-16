@@ -3600,6 +3600,17 @@
 		)
 		(uuid "2520f966-d268-4d70-9674-db30a65b367c")
 	)
+	(text "B2"
+		(exclude_from_sim no)
+		(at 140.97 56.642 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "294b2eda-d1c1-44e3-8762-c068182305c5")
+	)
 	(text "Rp term. Resistors.\n(Upstream)"
 		(exclude_from_sim no)
 		(at 69.342 115.824 0)
@@ -3665,6 +3676,17 @@
 		)
 		(uuid "431b89f6-ffc2-41ab-b0c5-a329f18026f2")
 	)
+	(text "SN"
+		(exclude_from_sim no)
+		(at 200.66 56.642 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "54344c6c-b067-4e5a-b2b9-6056500ceec5")
+	)
 	(text "B1"
 		(exclude_from_sim no)
 		(at 140.97 48.514 0)
@@ -3698,6 +3720,17 @@
 		)
 		(uuid "8871bca3-55b7-4e24-a38f-cc9e184422ab")
 	)
+	(text "EB"
+		(exclude_from_sim no)
+		(at 185.42 56.642 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "991a9c68-f230-4550-98a5-ca1508d31b54")
+	)
 	(text "\"elec_bulkhead_XT30_USB-C\" is a dedicated to Gripette project."
 		(exclude_from_sim no)
 		(at 141.224 25.146 0)
@@ -3719,6 +3752,17 @@
 			(justify left bottom)
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
+	)
+	(text "16/07/2026"
+		(exclude_from_sim no)
+		(at 161.29 56.642 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1d40851-f7ab-471e-bcea-7cb25ecf3a35")
 	)
 	(text "Robot side"
 		(exclude_from_sim no)
@@ -3754,6 +3798,17 @@
 			(justify left bottom)
 		)
 		(uuid "d5ffff9d-2037-4faf-b59f-623c5e896998")
+	)
+	(text "[fix] USB-C/3 extra monting pin"
+		(exclude_from_sim no)
+		(at 214.884 56.388 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "d83de472-7b56-4840-87d6-16b431e69d22")
 	)
 	(text "SN"
 		(exclude_from_sim no)
@@ -4182,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "3f1e96f0-7efa-4c26-8e02-fa9a731bc1db")
+	)
+	(polyline
+		(pts
+			(xy 140.97 52.07) (xy 275.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404056bc-a264-4174-afb0-733d2b1bcbba")
 	)
 	(wire
 		(pts
