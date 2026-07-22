@@ -774,6 +774,17 @@
 		)
 		(uuid "c8e9e649-6940-4ffe-b865-5c65acc2b634")
 	)
+	(text "ToDo:\n - still the USB does not operate (pogo-pins? rasp-gadget-mode?)\n - for using only the dynamixel/feetech, one need to remove R28, \n   but then it is required to inject Vbus into Vbat: add an extra\n   0R for that."
+		(exclude_from_sim no)
+		(at 54.61 92.71 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "d31089ac-c7a7-4dc6-8409-ee99f151d926")
+	)
 	(text "07/07/2026"
 		(exclude_from_sim no)
 		(at 39.37 75.438 0)
