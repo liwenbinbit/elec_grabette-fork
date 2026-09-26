@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -116,9 +110,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -159,10 +153,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -209,11 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.3,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -240,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -464,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -504,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "elec_angle_sensor.kicad_pro",
+    "filename": "my_angle_sensor_as5600_soic8_v1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,14 +522,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "fab/ASE001189-A1_elec_angle_sensor_STEP.step",
-      "svg": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -593,19 +574,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
         },
         {
           "group_by": true,
@@ -617,192 +610,17 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "FT Position Offset",
-          "name": "FT Position Offset",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "FT Rotation Offset",
-          "name": "FT Rotation Offset",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Man.",
-          "name": "Man.",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Man. Ref.",
-          "name": "Man. Ref.",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Length",
-          "name": "Length",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Dielectric",
-          "name": "Dielectric",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Power Rating",
-          "name": "Power Rating",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Resistance",
-          "name": "Resistance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage Rating",
-          "name": "Voltage Rating",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Width",
-          "name": "Width",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S3.3",
-          "name": "KLC_S3.3",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S4.1",
-          "name": "KLC_S4.1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field7",
-          "name": "Field7",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {
-      "GPIO": [
-        "ID_SD",
-        "ID_SC",
-        "IO_02",
-        "IO_03",
-        "IO_04",
-        "IO_05",
-        "IO_06",
-        "IO_07",
-        "IO_08",
-        "IO_09",
-        "IO_10",
-        "IO_11",
-        "IO_12",
-        "IO_13",
-        "IO_14",
-        "IO_15",
-        "IO_16",
-        "IO_17",
-        "IO_18",
-        "IO_19",
-        "IO_20",
-        "IO_21",
-        "IO_22",
-        "IO_23",
-        "IO_24",
-        "IO_25",
-        "IO_26",
-        "IO_27"
-      ]
-    },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -831,32 +649,24 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "production/",
+    "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "elec_angle_sensor.kicad_sch",
-        "name": "elec_angle_sensor",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "my_angle_sensor_as5600_soic8_v1.kicad_sch",
+        "name": "Root",
+        "uuid": "7c140ff6-e19a-4690-aa87-d9cbe2e77a47"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,C1,D1,#PWR1-7,#FLG1-2,J1,R1-3",
     "variants": []
   },
   "sheets": [
     [
-      "bc05f5da-608c-4912-90e4-36b13d989976",
+      "7c140ff6-e19a-4690-aa87-d9cbe2e77a47",
       "Root"
     ]
   ],

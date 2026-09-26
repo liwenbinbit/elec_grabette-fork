@@ -1,0 +1,42 @@
+** Drc report for my_angle_sensor_as5600_soic8_v1.kicad_pcb **
+** Created on 2026-09-25T15:50:23 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.0000 mm, 91.2500 mm): Pad 1 [GND] of D1 on F.Cu
+    @(136.2500 mm, 96.7500 mm): Track [GND] on F.Cu, length 3.9800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.0000 mm, 92.9500 mm): Track [+3V3] on F.Cu, length 2.0300 mm
+    @(134.0000 mm, 92.0000 mm): Track [+3V3] on F.Cu, length 0.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5250 mm, 93.3650 mm): Pad 7 [/SCL] of U1 on B.Cu
+    @(132.0200 mm, 97.0000 mm): Track [/SCL] on F.Cu, length 2.4800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.0000 mm, 91.0500 mm): Pad 4 [/SCL] of D1 on F.Cu
+    @(131.5250 mm, 93.3650 mm): Pad 7 [/SCL] of U1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5250 mm, 94.6350 mm): Pad 6 [/SDA] of U1 on B.Cu
+    @(134.1500 mm, 95.0000 mm): Track [/SDA] on F.Cu, length 2.1500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5250 mm, 92.0950 mm): Pad 8 [Net-(U1-Dir)] of U1 on B.Cu
+    @(135.5000 mm, 92.5000 mm): Pad 1 [Net-(U1-Dir)] of R1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -255,7 +255,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "elec_angle_sensor.kicad_pro",
+    "filename": "glove_mini_angle_sensor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -846,9 +846,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "elec_angle_sensor.kicad_sch",
-        "name": "elec_angle_sensor",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "glove_mini_angle_sensor.kicad_sch",
+        "name": "glove_mini_angle_sensor",
+        "uuid": "bc05f5da-608c-4912-90e4-36b13d989976"
       }
     ],
     "used_designators": "",
@@ -857,7 +857,7 @@
   "sheets": [
     [
       "bc05f5da-608c-4912-90e4-36b13d989976",
-      "Root"
+      "glove_mini_angle_sensor"
     ]
   ],
   "text_variables": {},
