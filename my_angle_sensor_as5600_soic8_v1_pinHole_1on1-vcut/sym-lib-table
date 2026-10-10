@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "as5600l_soic8_pollen") (type "KiCad") (uri "${KIPRJMOD}/kicad_sym/as5600l_soic8_pollen.kicad_sym") (options "") (descr ""))
+)
